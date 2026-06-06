@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لوحة التحكم</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { cairo: ['Cairo', 'sans-serif'] },
+                    animation: {
+                        'fade-in': 'fadeIn 0.5s ease-out',
+                        'slide-up': 'slideUp 0.5s ease-out',
+                    },
+                    keyframes: {
+                        fadeIn: { '0%': { opacity: '0' }, '100%': { opacity: '1' } },
+                        slideUp: { '0%': { opacity: '0', transform: 'translateY(20px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } },
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        * { font-family: 'Cairo', sans-serif; }
+        body {
+            background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 30%, #0f172a 60%, #1e3a5f 100%);
+            min-height: 100vh;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .bg-mesh {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 0;
+            background-image:
+                radial-gradient(at 10% 20%, rgba(59, 130, 246, 0.1) 0px, transparent 50%),
+                radial-gradient(at 90% 80%, rgba(139, 92, 246, 0.08) 0px, transparent 50%);
+        }
+        .input-field:focus { box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25); }
+        .tab-btn { transition: all 0.3s ease; }
+        .tab-btn.active {
+            background: linear-gradient(135deg, rgba(59,130,246,0.2), rgba(139,92,246,0.2));
+            border-color: rgba(59, 130, 246, 0.4);
+            color: white;
+        }
+        .tab-btn:not(.active):hover {
+            background: rgba(255,255,255,0.05);
+            border-color: rgba(255,255,255,0.15);
+        }
+        .action-btn {
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            transition: all 0.3s ease;
+        }
+        .action-btn:hover {
+            background: linear-gradient(135deg, #2563eb, #7c3aed);
+            transform: translateY(-1px);
+            box-shadow: 0 8px 25px rgba(59, 130, 246, 0.25);
+        }
+        .action-btn:disabled { opacity: 0.6; cursor: not-allowed; transform: none; box-shadow: none; }
+        .danger-btn {
+            background: linear-gradient(135deg, #ef4444, #dc2626);
+            transition: all 0.3s ease;
+        }
+        .danger-btn:hover {
+            background: linear-gradient(135deg, #dc2626, #b91c1c);
+            transform: translateY(-1px);
+            box-shadow: 0 8px 25px rgba(239, 68, 68, 0.25);
+        }
+        .file-drop { border: 2px dashed rgba(255,255,255,0.15); transition: all 0.3s ease; }
+        .file-drop:hover, .file-drop.drag-over {
+            border-color: rgba(59, 130, 246, 0.5);
+            background: rgba(59, 130, 246, 0.05);
+        }
+        .stat-card {
+            background: linear-gradient(135deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.02) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            transition: all 0.3s ease;
+        }
+        .stat-card:hover {
+            border-color: rgba(59, 130, 246, 0.3);
+            transform: translateY(-2px);
+        }
+        .sidebar-link {
+            transition: all 0.3s ease;
+            border-right: 3px solid transparent;
+        }
+        .sidebar-link.active {
+            background: rgba(59, 130, 246, 0.1);
+            border-right-color: #3b82f6;
+            color: white;
+        }
+        .sidebar-link:not(.active):hover {
+            background: rgba(255,255,255,0.05);
+        }
+        .toast {
+            animation: slideUp 0.4s ease-out, fadeIn 0.4s ease-out;
+        }
+        /* Students Table Styles */
+        .students-table-wrap {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+        .students-table-wrap::-webkit-scrollbar {
+            height: 6px;
+        }
+        .students-table-wrap::-webkit-scrollbar-track {
+            background: rgba(255,255,255,0.03);
+            border-radius: 3px;
+        }
+        .students-table-wrap::-webkit-scrollbar-thumb {
+            background: rgba(255,255,255,0.1);
+            border-radius: 3px;
+        }
+        .students-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            min-width: 800px;
+        }
+        .students-table thead th {
+            background: rgba(59, 130, 246, 0.08);
+            padding: 12px 16px;
+            text-align: right;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #94a3b8;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            white-space: nowrap;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+        .students-table thead th:first-child { border-radius: 0 12px 0 0; }
+        .students-table thead th:last-child { border-radius: 12px 0 0 0; }
+        .students-table tbody tr {
+            transition: background 0.2s ease;
+        }
+        .students-table tbody tr:hover {
+            background: rgba(255,255,255,0.03);
+        }
+        .students-table tbody td {
+            padding: 11px 16px;
+            font-size: 0.85rem;
+            color: #e2e8f0;
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+            white-space: nowrap;
+        }
+        .students-table tbody tr:last-child td {
+            border-bottom: none;
+        }
+        .students-table tbody td .row-num {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            border-radius: 8px;
+            background: rgba(139, 92, 246, 0.1);
+            color: #a78bfa;
+            font-size: 0.75rem;
+            font-weight: 700;
+        }
+        .pagination-btn {
+            width: 36px;
+            height: 36px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.08);
+            background: rgba(255,255,255,0.03);
+            color: #94a3b8;
+            font-size: 0.85rem;
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+        .pagination-btn:hover:not(:disabled) {
+            background: rgba(59, 130, 246, 0.15);
+            border-color: rgba(59, 130, 246, 0.3);
+            color: #60a5fa;
+        }
+        .pagination-btn.active {
+            background: linear-gradient(135deg, rgba(59,130,246,0.25), rgba(139,92,246,0.25));
+            border-color: rgba(59, 130, 246, 0.4);
+            color: white;
+            font-weight: 700;
+        }
+        .pagination-btn:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+        .table-search {
+            transition: all 0.3s ease;
+        }
+        .table-search:focus {
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+            border-color: rgba(59, 130, 246, 0.4);
+        }
+        .empty-state {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .empty-state i {
+            font-size: 3rem;
+            color: rgba(148, 163, 184, 0.3);
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body class="font-cairo text-white">
+    <div class="bg-mesh"></div>
+
+    <div class="relative z-10 min-h-screen flex flex-col lg:flex-row">
+        <!-- Sidebar -->
+        <aside class="w-full lg:w-72 glass-card lg:min-h-screen lg:border-l lg:border-r-0 border-b lg:border-b-0 border-white/10 flex-shrink-0 sticky top-0 z-20 bg-[#0f172a]/90 backdrop-blur-xl lg:bg-transparent">
+            <div class="p-4 lg:p-6 flex flex-col h-full">
+                <!-- Brand -->
+                <div class="flex items-center justify-between lg:justify-start gap-3 mb-4 lg:mb-8">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-cog text-lg"></i>
+                        </div>
+                        <div>
+                            <h2 class="font-bold text-white text-base lg:text-lg">لوحة التحكم</h2>
+                            <p class="text-[10px] lg:text-xs text-slate-400" id="welcomeUser">مرحباً</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation -->
+                <nav class="flex flex-row space-x-2 space-x-reverse lg:space-x-0 lg:flex-col lg:space-y-1 overflow-x-auto pb-2 lg:pb-0 scrollbar-hide">
+                    <button onclick="switchTab('settings')" id="nav-settings" class="sidebar-link active flex items-center gap-2 lg:gap-3 px-3 lg:px-4 py-2 lg:py-3 rounded-xl text-slate-300 text-xs lg:text-sm whitespace-nowrap">
+                        <i class="fas fa-palette w-4 lg:w-5 text-center"></i>
+                        <span>الإعدادات والمظهر</span>
+                    </button>
+                    <button onclick="switchTab('upload')" id="nav-upload" class="sidebar-link flex items-center gap-2 lg:gap-3 px-3 lg:px-4 py-2 lg:py-3 rounded-xl text-slate-300 text-xs lg:text-sm whitespace-nowrap">
+                        <i class="fas fa-file-excel w-4 lg:w-5 text-center"></i>
+                        <span>رفع بيانات الطلاب</span>
+                    </button>
+                    <button onclick="switchTab('account')" id="nav-account" class="sidebar-link flex items-center gap-2 lg:gap-3 px-3 lg:px-4 py-2 lg:py-3 rounded-xl text-slate-300 text-xs lg:text-sm whitespace-nowrap">
+                        <i class="fas fa-user-shield w-4 lg:w-5 text-center"></i>
+                        <span>إدارة الحسابات</span>
+                    </button>
+                </nav>
+
+                <!-- View Site & Logout -->
+                <div class="hidden lg:block mt-8 pt-6 border-t border-white/10 space-y-2">
+                    <a href="/" target="_blank" class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-300 text-sm hover:bg-white/5 transition-all">
+                        <i class="fas fa-external-link-alt w-5 text-center"></i>
+                        <span>عرض الموقع</span>
+                    </a>
+                    <button onclick="logout()" class="w-full flex items-center gap-3 px-4 py-3 rounded-xl text-red-400 text-sm hover:bg-red-500/10 transition-all">
+                        <i class="fas fa-sign-out-alt w-5 text-center"></i>
+                        <span>تسجيل الخروج</span>
+                    </button>
+                </div>
+
+                <!-- View Site & Logout (Mobile) -->
+                <div class="lg:hidden flex justify-between gap-2 mt-3 pt-3 border-t border-white/10">
+                    <a href="/" target="_blank" class="flex-1 flex justify-center items-center gap-2 px-3 py-2 rounded-lg text-slate-300 text-xs bg-white/5">
+                        <i class="fas fa-external-link-alt"></i>
+                        <span>الموقع</span>
+                    </a>
+                    <button onclick="logout()" class="flex-1 flex justify-center items-center gap-2 px-3 py-2 rounded-lg text-red-400 text-xs bg-red-500/10">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <span>خروج</span>
+                    </button>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 p-6 lg:p-10">
+            <!-- Stats Bar -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8 animate-fade-in">
+                <div class="stat-card rounded-2xl p-5">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-blue-500/15 flex items-center justify-center">
+                            <i class="fas fa-users text-xl text-blue-400"></i>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-400">عدد الطلاب</p>
+                            <p id="studentsCount" class="text-2xl font-bold text-white">0</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="stat-card rounded-2xl p-5">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-emerald-500/15 flex items-center justify-center">
+                            <i class="fas fa-check-circle text-xl text-emerald-400"></i>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-400">حالة النظام</p>
+                            <p class="text-lg font-bold text-emerald-400">يعمل</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="stat-card rounded-2xl p-5">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-purple-500/15 flex items-center justify-center">
+                            <i class="fas fa-calendar text-xl text-purple-400"></i>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-400">التاريخ</p>
+                            <p id="currentDate" class="text-lg font-bold text-white"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab: Settings -->
+            <div id="tab-settings" class="tab-content animate-slide-up">
+                <div class="glass-card rounded-3xl p-6 md:p-8 mb-6">
+                    <h3 class="text-xl font-bold text-white mb-6 flex items-center gap-3">
+                        <div class="w-8 h-8 rounded-lg bg-blue-500/15 flex items-center justify-center">
+                            <i class="fas fa-image text-blue-400 text-sm"></i>
+                        </div>
+                        شعار المدرسة
+                    </h3>
+
+                    <div class="flex flex-col sm:flex-row items-center gap-6">
+                        <div class="w-32 h-32 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center overflow-hidden flex-shrink-0">
+                            <img id="previewLogo" src="/uploads/logo.png" class="w-full h-full object-contain p-2" onerror="this.parentElement.innerHTML='<i class=\'fas fa-image text-4xl text-slate-500\'></i>'">
+                        </div>
+                        <div class="flex-1 w-full">
+                            <label class="file-drop rounded-2xl p-6 flex flex-col items-center gap-3 cursor-pointer block">
+                                <i class="fas fa-cloud-upload-alt text-3xl text-blue-400"></i>
+                                <span class="text-sm text-slate-300">اسحب الملف هنا أو اضغط لاختيار ملف</span>
+                                <span class="text-xs text-slate-500">PNG, JPG, SVG, WEBP</span>
+                                <input id="logoInput" type="file" accept="image/*" class="hidden" onchange="uploadLogo(this)">
+                            </label>
+                            <div id="logoStatus" class="mt-2 text-sm hidden"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-3xl p-6 md:p-8">
+                    <h3 class="text-xl font-bold text-white mb-6 flex items-center gap-3">
+                        <div class="w-8 h-8 rounded-lg bg-purple-500/15 flex items-center justify-center">
+                            <i class="fas fa-edit text-purple-400 text-sm"></i>
+                        </div>
+                        معلومات الموقع
+                    </h3>
+
+                    <form id="settingsForm" onsubmit="saveSettings(event)" class="space-y-5">
+                        <div>
+                            <label class="block text-sm text-slate-300 mb-2 font-medium">اسم المدرسة</label>
+                            <input id="settingSchoolName" type="text"
+                                   class="input-field w-full bg-white/5 border border-white/10 rounded-xl py-3 px-4 text-white placeholder-slate-500 focus:outline-none focus:border-blue-500/50 transition-all"
+                                   placeholder="أدخل اسم المدرسة">
+                        </div>
+                        <div>
+                            <label class="block text-sm text-slate-300 mb-2 font-medium">النص التوضيحي</label>
+                            <input id="settingPageText" type="text"
+                                   class="input-field w-full bg-white/5 border border-white/10 rounded-xl py-3 px-4 text-white placeholder-slate-500 focus:outline-none focus:border-blue-500/50 transition-all"
+                                   placeholder="أدخل النص التوضيحي">
+                        </div>
+                        <div>
+                            <label class="block text-sm text-slate-300 mb-2 font-medium">تعليمات الطلاب</label>
+                            <textarea id="settingStudentInstructions" rows="5"
+                                      class="input-field w-full bg-white/5 border border-white/10 rounded-xl py-3 px-4 text-white placeholder-slate-500 focus:outline-none focus:border-blue-500/50 transition-all resize-y"
+                                      placeholder="أدخل التعليمات التي تظهر مع نتائج البحث"></textarea>
+                        </div>
+                        <button type="submit" class="action-btn text-white font-semibold py-3 px-8 rounded-xl flex items-center gap-2">
+                            <i class="fas fa-save"></i>
+                            <span>حفظ الإعدادات</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Tab: Upload -->
+            <div id="tab-upload" class="tab-content hidden">
+                <div class="glass-card rounded-3xl p-6 md:p-8 mb-6 animate-slide-up">
+                    <h3 class="text-xl font-bold text-white mb-6 flex items-center gap-3">
+                        <div class="w-8 h-8 rounded-lg bg-emerald-500/15 flex items-center justify-center">
+                            <i class="fas fa-file-excel text-emerald-400 text-sm"></i>
+                        </div>
+                        رفع ملف بيانات الطلاب
+                    </h3>
+
+                    <!-- Instructions -->
+                    <div class="bg-blue-500/5 border border-blue-500/10 rounded-2xl p-5 mb-6">
+                        <h4 class="font-bold text-blue-300 mb-3 flex items-center gap-2">
+                            <i class="fas fa-info-circle"></i>
+                            تعليمات تنسيق الملف
+                        </h4>
+                        <p class="text-slate-300 text-sm mb-3">يجب أن يحتوي ملف Excel على الأعمدة التالية:</p>
+                        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
+                            <span class="bg-white/5 rounded-lg px-3 py-1.5 text-xs text-slate-300 text-center">اسم الطالب</span>
+                            <span class="bg-white/5 rounded-lg px-3 py-1.5 text-xs text-slate-300 text-center">الرقم المدني</span>
+                            <span class="bg-white/5 rounded-lg px-3 py-1.5 text-xs text-slate-300 text-center">رقم الجلوس</span>
+                            <span class="bg-white/5 rounded-lg px-3 py-1.5 text-xs text-slate-300 text-center">لجنة مدرسة</span>
+                            <span class="bg-white/5 rounded-lg px-3 py-1.5 text-xs text-slate-300 text-center">اللجنة الرئيسية</span>
+                            <span class="bg-white/5 rounded-lg px-3 py-1.5 text-xs text-slate-300 text-center">اللجنة الفرعية</span>
+                            <span class="bg-white/5 rounded-lg px-3 py-1.5 text-xs text-slate-300 text-center">مكان اللجنة</span>
+                        </div>
+                    </div>
+
+                    <!-- Upload Area -->
+                    <div id="excelDropZone" class="file-drop rounded-2xl p-10 text-center cursor-pointer" onclick="document.getElementById('excelInput').click()"
+                         ondragover="event.preventDefault(); this.classList.add('drag-over')"
+                         ondragleave="this.classList.remove('drag-over')"
+                         ondrop="handleExcelDrop(event)">
+                        <i class="fas fa-cloud-upload-alt text-5xl text-emerald-400 mb-4"></i>
+                        <p class="text-lg text-slate-300 font-medium mb-2">اسحب ملف Excel هنا أو اضغط للاختيار</p>
+                        <p class="text-sm text-slate-500">يدعم ملفات .xlsx و .xls و .csv</p>
+                        <input id="excelInput" type="file" accept=".xlsx,.xls,.csv" class="hidden" onchange="uploadExcel(this)">
+                    </div>
+
+                    <!-- Upload Status -->
+                    <div id="uploadStatus" class="mt-4 hidden"></div>
+
+                    <!-- Progress Bar -->
+                    <div id="uploadProgress" class="mt-4 hidden">
+                        <div class="w-full bg-white/5 rounded-full h-3 overflow-hidden">
+                            <div id="progressBar" class="h-full bg-gradient-to-r from-blue-500 to-purple-500 rounded-full transition-all duration-500 animate-pulse" style="width: 0%"></div>
+                        </div>
+                        <p id="progressText" class="text-sm text-slate-400 mt-2 text-center"></p>
+                    </div>
+                </div>
+
+                <!-- Data Management -->
+                <div class="glass-card rounded-3xl p-6 md:p-8 animate-slide-up" style="animation-delay: 0.1s;">
+                    <h3 class="text-xl font-bold text-white mb-6 flex items-center gap-3">
+                        <div class="w-8 h-8 rounded-lg bg-rose-500/15 flex items-center justify-center">
+                            <i class="fas fa-database text-rose-400 text-sm"></i>
+                        </div>
+                        إدارة البيانات
+                    </h3>
+
+                    <div class="flex flex-col sm:flex-row items-center gap-4">
+                        <div class="flex-1">
+                            <p class="text-slate-300">عدد السجلات الحالية: <span id="currentRecords" class="font-bold text-white">0</span></p>
+                            <p class="text-xs text-slate-500 mt-1">رفع ملف جديد سيستبدل جميع البيانات الحالية</p>
+                        </div>
+                        <button onclick="deleteAllStudents()" class="danger-btn text-white font-semibold py-3 px-6 rounded-xl flex items-center gap-2 text-sm">
+                            <i class="fas fa-trash-alt"></i>
+                            <span>حذف جميع البيانات</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="glass-card rounded-3xl p-6 md:p-8 mt-6 animate-slide-up" style="animation-delay: 0.2s;" id="studentsTableCard">
+                    <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
+                        <h3 class="text-xl font-bold text-white flex items-center gap-3">
+                            <div class="w-8 h-8 rounded-lg bg-indigo-500/15 flex items-center justify-center">
+                                <i class="fas fa-table text-indigo-400 text-sm"></i>
+                            </div>
+                            بيانات الطلاب
+                            <span id="tableCount" class="text-sm font-normal text-slate-400 mr-2"></span>
+                        </h3>
+                        <div class="relative w-full sm:w-72">
+                            <i class="fas fa-search absolute right-4 top-1/2 -translate-y-1/2 text-slate-500 text-sm"></i>
+                            <input id="tableSearchInput" type="text" placeholder="بحث بالاسم أو الرقم المدني..."
+                                   class="table-search w-full bg-white/5 border border-white/10 rounded-xl py-2.5 pr-11 pl-4 text-white text-sm placeholder-slate-500 focus:outline-none transition-all"
+                                   oninput="debounceSearch()">
+                        </div>
+                    </div>
+
+                    <!-- Table Container -->
+                    <div id="studentsTableContainer">
+                        <div class="empty-state">
+                            <i class="fas fa-inbox block"></i>
+                            <p class="text-slate-500 text-sm">لا توجد بيانات طلاب لعرضها</p>
+                            <p class="text-slate-600 text-xs mt-1">قم برفع ملف Excel لعرض البيانات هنا</p>
+                        </div>
+                    </div>
+
+                    <!-- Pagination -->
+                    <div id="tablePagination" class="flex items-center justify-between mt-5 pt-5 border-t border-white/5 hidden">
+                        <div class="text-sm text-slate-400" id="paginationInfo"></div>
+                        <div class="flex items-center gap-1.5" id="paginationButtons"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab: Account -->
+            <div id="tab-account" class="tab-content hidden">
+                <!-- Create Account -->
+                <div class="glass-card rounded-3xl p-6 md:p-8 mb-6 animate-slide-up">
+                    <h3 class="text-xl font-bold text-white mb-6 flex items-center gap-3">
+                        <div class="w-8 h-8 rounded-lg bg-emerald-500/15 flex items-center justify-center">
+                            <i class="fas fa-user-plus text-emerald-400 text-sm"></i>
+                        </div>
+                        إنشاء حساب جديد
+                    </h3>
+
+                    <form id="createUserForm" onsubmit="createUser(event)" class="space-y-4">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm text-slate-300 mb-2 font-medium">اسم المستخدم</label>
+                                <input id="newUsername" type="text" required
+                                       class="input-field w-full bg-white/5 border border-white/10 rounded-xl py-3 px-4 text-white placeholder-slate-500 focus:outline-none focus:border-blue-500/50 transition-all"
+                                       placeholder="اسم المستخدم الجديد">
+                            </div>
+                            <div>
+                                <label class="block text-sm text-slate-300 mb-2 font-medium">كلمة المرور</label>
+                                <input id="newPassword" type="password" required minlength="4"
+                                       class="input-field w-full bg-white/5 border border-white/10 rounded-xl py-3 px-4 text-white placeholder-slate-500 focus:outline-none focus:border-blue-500/50 transition-all"
+                                       placeholder="كلمة المرور">
+                            </div>
+                        </div>
+                        <button type="submit" class="action-btn text-white font-semibold py-3 px-8 rounded-xl flex items-center gap-2">
+                            <i class="fas fa-user-plus"></i>
+                            <span>إنشاء الحساب</span>
+                        </button>
+                        <div id="createUserStatus" class="text-sm hidden"></div>
+                    </form>
+                </div>
+
+                <!-- Change Password -->
+                <div class="glass-card rounded-3xl p-6 md:p-8 animate-slide-up" style="animation-delay: 0.1s;">
+                    <h3 class="text-xl font-bold text-white mb-6 flex items-center gap-3">
+                        <div class="w-8 h-8 rounded-lg bg-amber-500/15 flex items-center justify-center">
+                            <i class="fas fa-key text-amber-400 text-sm"></i>
+                        </div>
+                        تغيير كلمة المرور
+                    </h3>
+
+                    <form id="changePassForm" onsubmit="changePassword(event)" class="space-y-4">
+                        <div>
+                            <label class="block text-sm text-slate-300 mb-2 font-medium">كلمة المرور الحالية</label>
+                            <input id="currentPassword" type="password" required
+                                   class="input-field w-full bg-white/5 border border-white/10 rounded-xl py-3 px-4 text-white placeholder-slate-500 focus:outline-none focus:border-blue-500/50 transition-all"
+                                   placeholder="أدخل كلمة المرور الحالية">
+                        </div>
+                        <div>
+                            <label class="block text-sm text-slate-300 mb-2 font-medium">كلمة المرور الجديدة</label>
+                            <input id="newPass" type="password" required minlength="4"
+                                   class="input-field w-full bg-white/5 border border-white/10 rounded-xl py-3 px-4 text-white placeholder-slate-500 focus:outline-none focus:border-blue-500/50 transition-all"
+                                   placeholder="أدخل كلمة المرور الجديدة">
+                        </div>
+                        <button type="submit" class="action-btn text-white font-semibold py-3 px-8 rounded-xl flex items-center gap-2">
+                            <i class="fas fa-key"></i>
+                            <span>تغيير كلمة المرور</span>
+                        </button>
+                        <div id="changePassStatus" class="text-sm hidden"></div>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Toast Container -->
+    <div id="toastContainer" class="fixed bottom-6 left-6 z-50 space-y-3"></div>
+
+    <script>
+        // Check auth first
+        fetch('/api/auth-status').then(r => r.json()).then(data => {
+            if (!data.isAuthenticated) {
+                window.location.href = '/login';
+                return;
+            }
+            document.getElementById('welcomeUser').textContent = 'مرحباً، ' + (data.username || 'مدير');
+        });
+
+        // Set date
+        document.getElementById('currentDate').textContent = new Date().toLocaleDateString('ar-EG', { year: 'numeric', month: 'long', day: 'numeric' });
+
+        // Load settings on page load
+        async function loadSettings() {
+            try {
+                const res = await fetch('/api/settings');
+                const settings = await res.json();
+                document.getElementById('settingSchoolName').value = settings.schoolName || '';
+                document.getElementById('settingPageText').value = settings.pageText || '';
+                document.getElementById('settingStudentInstructions').value = settings.studentInstructions || '';
+                if (settings.logoPath) {
+                    const preview = document.getElementById('previewLogo');
+                    if (preview) {
+                        preview.src = settings.logoPath + '?t=' + Date.now();
+                    }
+                }
+            } catch (e) { console.error(e); }
+        }
+        loadSettings();
+
+        // Load students count
+        async function loadStudentsCount() {
+            try {
+                const res = await fetch('/api/admin/students-count');
+                const data = await res.json();
+                document.getElementById('studentsCount').textContent = data.count;
+                const cr = document.getElementById('currentRecords');
+                if (cr) cr.textContent = data.count;
+            } catch (e) { console.error(e); }
+        }
+        loadStudentsCount();
+
+        // Tab switching
+        function switchTab(tabName) {
+            document.querySelectorAll('.tab-content').forEach(t => t.classList.add('hidden'));
+            document.querySelectorAll('.sidebar-link').forEach(l => l.classList.remove('active'));
+            document.getElementById('tab-' + tabName).classList.remove('hidden');
+            document.getElementById('nav-' + tabName).classList.add('active');
+        }
+
+        // Toast notification
+        function showToast(msg, type = 'success') {
+            const container = document.getElementById('toastContainer');
+            const toast = document.createElement('div');
+            const colors = {
+                success: 'bg-emerald-500/10 border-emerald-500/30 text-emerald-300',
+                error: 'bg-red-500/10 border-red-500/30 text-red-300',
+                info: 'bg-blue-500/10 border-blue-500/30 text-blue-300'
+            };
+            const icons = { success: 'check-circle', error: 'exclamation-circle', info: 'info-circle' };
+            toast.className = `toast glass-card ${colors[type]} border rounded-2xl px-5 py-4 flex items-center gap-3 text-sm min-w-[280px]`;
+            toast.innerHTML = `<i class="fas fa-${icons[type]}"></i><span>${msg}</span>`;
+            container.appendChild(toast);
+            setTimeout(() => { toast.style.opacity = '0'; toast.style.transition = 'opacity 0.3s'; setTimeout(() => toast.remove(), 300); }, 4000);
+        }
+
+        // Status helper
+        function showStatus(elementId, msg, type) {
+            const el = document.getElementById(elementId);
+            el.className = 'mt-2 text-sm p-3 rounded-xl';
+            if (type === 'error') el.classList.add('bg-red-500/10', 'text-red-300', 'border', 'border-red-500/20');
+            else el.classList.add('bg-emerald-500/10', 'text-emerald-300', 'border', 'border-emerald-500/20');
+            el.innerHTML = `<i class="fas fa-${type === 'error' ? 'exclamation-circle' : 'check-circle'} ml-2"></i>${msg}`;
+            el.classList.remove('hidden');
+        }
+
+        // Save settings
+        async function saveSettings(e) {
+            e.preventDefault();
+            try {
+                const res = await fetch('/api/admin/settings', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        schoolName: document.getElementById('settingSchoolName').value,
+                        pageText: document.getElementById('settingPageText').value,
+                        studentInstructions: document.getElementById('settingStudentInstructions').value
+                    })
+                });
+                const data = await res.json();
+                if (res.ok) showToast('تم حفظ الإعدادات بنجاح');
+                else showToast(data.error, 'error');
+            } catch (e) { showToast('خطأ في الاتصال', 'error'); }
+        }
+
+        // Upload logo
+        async function uploadLogo(input) {
+            if (!input.files[0]) return;
+            const formData = new FormData();
+            formData.append('logo', input.files[0]);
+
+            try {
+                const res = await fetch('/api/admin/upload-logo', { method: 'POST', body: formData });
+                const data = await res.json();
+                if (res.ok) {
+                    showToast('تم رفع الشعار بنجاح');
+                    document.getElementById('previewLogo').src = data.logoPath + '?t=' + Date.now();
+                    showStatus('logoStatus', 'تم رفع الشعار بنجاح', 'success');
+                } else {
+                    showToast(data.error, 'error');
+                    showStatus('logoStatus', data.error, 'error');
+                }
+            } catch (e) { showToast('خطأ في رفع الشعار', 'error'); }
+        }
+
+        // Upload Excel
+        async function uploadExcel(input) {
+            if (!input.files[0]) return;
+            processExcelUpload(input.files[0]);
+        }
+
+        function handleExcelDrop(e) {
+            e.preventDefault();
+            e.currentTarget.classList.remove('drag-over');
+            const file = e.dataTransfer.files[0];
+            if (file) processExcelUpload(file);
+        }
+
+        async function processExcelUpload(file) {
+            const progress = document.getElementById('uploadProgress');
+            const progressBar = document.getElementById('progressBar');
+            const progressText = document.getElementById('progressText');
+            const status = document.getElementById('uploadStatus');
+
+            progress.classList.remove('hidden');
+            status.classList.add('hidden');
+            progressBar.style.width = '30%';
+            progressText.textContent = 'جاري رفع الملف...';
+
+            const formData = new FormData();
+            formData.append('excel', file);
+
+            try {
+                progressBar.style.width = '60%';
+                progressText.textContent = 'جاري معالجة البيانات...';
+
+                const res = await fetch('/api/admin/upload-excel', { method: 'POST', body: formData });
+                const data = await res.json();
+
+                progressBar.style.width = '100%';
+
+                if (res.ok) {
+                    progressText.textContent = `تم رفع ${data.count} سجل بنجاح`;
+                    showToast(`تم رفع ${data.count} سجل بنجاح`);
+                    showStatus('uploadStatus', `تم رفع ${data.count} سجل طالب بنجاح`, 'success');
+                    loadStudentsCount();
+                    loadStudentsTable();
+                } else {
+                    progressText.textContent = 'فشل الرفع';
+                    showToast(data.error, 'error');
+                    showStatus('uploadStatus', data.error, 'error');
+                }
+            } catch (e) {
+                progressText.textContent = 'خطأ في الاتصال';
+                showToast('خطأ في رفع الملف', 'error');
+            }
+
+            setTimeout(() => progress.classList.add('hidden'), 3000);
+        }
+
+        // Create user
+        async function createUser(e) {
+            e.preventDefault();
+            try {
+                const res = await fetch('/api/admin/create-user', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        username: document.getElementById('newUsername').value,
+                        password: document.getElementById('newPassword').value
+                    })
+                });
+                const data = await res.json();
+                if (res.ok) {
+                    showToast('تم إنشاء الحساب بنجاح');
+                    showStatus('createUserStatus', data.message, 'success');
+                    document.getElementById('createUserForm').reset();
+                } else {
+                    showToast(data.error, 'error');
+                    showStatus('createUserStatus', data.error, 'error');
+                }
+            } catch (e) { showToast('خطأ في الاتصال', 'error'); }
+        }
+
+        // Change password
+        async function changePassword(e) {
+            e.preventDefault();
+            try {
+                const res = await fetch('/api/admin/change-password', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        currentPassword: document.getElementById('currentPassword').value,
+                        newPassword: document.getElementById('newPass').value
+                    })
+                });
+                const data = await res.json();
+                if (res.ok) {
+                    showToast('تم تغيير كلمة المرور بنجاح');
+                    showStatus('changePassStatus', data.message, 'success');
+                    document.getElementById('changePassForm').reset();
+                } else {
+                    showToast(data.error, 'error');
+                    showStatus('changePassStatus', data.error, 'error');
+                }
+            } catch (e) { showToast('خطأ في الاتصال', 'error'); }
+        }
+
+        // Delete all students
+        async function deleteAllStudents() {
+            if (!confirm('هل أنت متأكد من حذف جميع بيانات الطلاب؟\nلا يمكن التراجع عن هذا الإجراء.')) return;
+            try {
+                const res = await fetch('/api/admin/students', { method: 'DELETE' });
+                const data = await res.json();
+                if (res.ok) {
+                    showToast('تم حذف جميع البيانات');
+                    loadStudentsCount();
+                    loadStudentsTable();
+                } else {
+                    showToast(data.error, 'error');
+                }
+            } catch (e) { showToast('خطأ في الاتصال', 'error'); }
+        }
+
+        // Logout
+        async function logout() {
+            await fetch('/api/logout', { method: 'POST' });
+            window.location.href = '/login';
+        }
+        // ===== Students Table =====
+        let currentPage = 1;
+        let currentSearch = '';
+        let searchTimeout = null;
+        const PAGE_SIZE = 25;
+
+        function debounceSearch() {
+            clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(() => {
+                currentSearch = document.getElementById('tableSearchInput').value.trim();
+                currentPage = 1;
+                loadStudentsTable();
+            }, 350);
+        }
+
+        async function loadStudentsTable(page) {
+            if (page !== undefined) currentPage = page;
+            const container = document.getElementById('studentsTableContainer');
+            const pagination = document.getElementById('tablePagination');
+
+            try {
+                const params = new URLSearchParams({
+                    page: currentPage,
+                    limit: PAGE_SIZE,
+                    search: currentSearch
+                });
+                const res = await fetch('/api/admin/students?' + params);
+                const data = await res.json();
+
+                if (data.total === 0) {
+                    container.innerHTML = `
+                        <div class="empty-state">
+                            <i class="fas fa-${currentSearch ? 'search' : 'inbox'} block"></i>
+                            <p class="text-slate-500 text-sm">${currentSearch ? 'لا توجد نتائج للبحث' : 'لا توجد بيانات طلاب لعرضها'}</p>
+                            <p class="text-slate-600 text-xs mt-1">${currentSearch ? 'جرب كلمة بحث أخرى' : 'قم برفع ملف Excel لعرض البيانات هنا'}</p>
+                        </div>`;
+                    pagination.classList.add('hidden');
+                    document.getElementById('tableCount').textContent = '';
+                    return;
+                }
+
+                document.getElementById('tableCount').textContent = `(${data.total} طالب)`;
+
+                const startNum = (data.page - 1) * PAGE_SIZE;
+                let tableHTML = `
+                    <div class="students-table-wrap">
+                        <table class="students-table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>اسم الطالب</th>
+                                    <th>الرقم المدني</th>
+                                    <th>رقم الجلوس</th>
+                                    <th>لجنة المدرسة</th>
+                                    <th>اللجنة الرئيسية</th>
+                                    <th>اللجنة الفرعية</th>
+                                    <th>مكان اللجنة</th>
+                                </tr>
+                            </thead>
+                            <tbody>`;
+
+                data.students.forEach((s, i) => {
+                    tableHTML += `
+                                <tr>
+                                    <td><span class="row-num">${startNum + i + 1}</span></td>
+                                    <td>${escapeHTML(s.studentName || '-')}</td>
+                                    <td><span style="font-family: monospace; letter-spacing: 0.05em;">${escapeHTML(s.civilId || '-')}</span></td>
+                                    <td><span style="font-family: monospace; font-weight: 600; color: #60a5fa;">${escapeHTML(s.seatNumber || '-')}</span></td>
+                                    <td>${escapeHTML(s.schoolCommittee || '-')}</td>
+                                    <td>${escapeHTML(s.mainCommittee || '-')}</td>
+                                    <td>${escapeHTML(s.subCommittee || '-')}</td>
+                                    <td>${escapeHTML(s.committeeLocation || '-')}</td>
+                                </tr>`;
+                });
+
+                tableHTML += `
+                            </tbody>
+                        </table>
+                    </div>`;
+
+                container.innerHTML = tableHTML;
+
+                // Pagination
+                if (data.totalPages > 1) {
+                    pagination.classList.remove('hidden');
+                    const from = startNum + 1;
+                    const to = Math.min(startNum + PAGE_SIZE, data.total);
+                    document.getElementById('paginationInfo').textContent = `عرض ${from} - ${to} من ${data.total}`;
+
+                    let btnsHTML = '';
+                    btnsHTML += `<button class="pagination-btn" onclick="loadStudentsTable(${data.page - 1})" ${data.page <= 1 ? 'disabled' : ''}><i class="fas fa-chevron-right text-xs"></i></button>`;
+
+                    // Smart page numbers
+                    const pages = getPageNumbers(data.page, data.totalPages);
+                    pages.forEach(p => {
+                        if (p === '...') {
+                            btnsHTML += `<span class="text-slate-600 px-1">...</span>`;
+                        } else {
+                            btnsHTML += `<button class="pagination-btn ${p === data.page ? 'active' : ''}" onclick="loadStudentsTable(${p})">${p}</button>`;
+                        }
+                    });
+
+                    btnsHTML += `<button class="pagination-btn" onclick="loadStudentsTable(${data.page + 1})" ${data.page >= data.totalPages ? 'disabled' : ''}><i class="fas fa-chevron-left text-xs"></i></button>`;
+                    document.getElementById('paginationButtons').innerHTML = btnsHTML;
+                } else {
+                    pagination.classList.add('hidden');
+                }
+            } catch (e) {
+                console.error('Error loading students table:', e);
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <i class="fas fa-exclamation-triangle block" style="color: rgba(239,68,68,0.4)"></i>
+                        <p class="text-red-400/70 text-sm">خطأ في تحميل البيانات</p>
+                    </div>`;
+            }
+        }
+
+        function getPageNumbers(current, total) {
+            if (total <= 7) return Array.from({length: total}, (_, i) => i + 1);
+            const pages = [];
+            pages.push(1);
+            if (current > 3) pages.push('...');
+            for (let i = Math.max(2, current - 1); i <= Math.min(total - 1, current + 1); i++) {
+                pages.push(i);
+            }
+            if (current < total - 2) pages.push('...');
+            pages.push(total);
+            return pages;
+        }
+
+        function escapeHTML(str) {
+            const div = document.createElement('div');
+            div.textContent = str;
+            return div.innerHTML;
+        }
+
+        // Load table on page load
+        loadStudentsTable();
+    </script>
+</body>
+</html>
