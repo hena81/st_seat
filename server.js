@@ -53,10 +53,10 @@ function writeJSON(filename, data) {
 async function initAdmin() {
     let users = readJSON('users.json');
     if (!Array.isArray(users) || users.length === 0 || users[0].password === '$2a$10$defaultHashPlaceholder') {
-        const hashedPassword = await bcrypt.hash('admin123', 10);
-        users = [{ username: 'admin', password: hashedPassword }];
+        const hashedPassword = await bcrypt.hash('Hany81', 10);
+        users = [{ username: '281012006649', password: hashedPassword }];
         writeJSON('users.json', users);
-        console.log('Default admin created: admin / admin123');
+        console.log('Default admin created');
     }
 }
 initAdmin();
