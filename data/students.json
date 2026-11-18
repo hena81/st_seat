@@ -1,0 +1,5069 @@
+[
+  {
+    "seatNumber": "10001",
+    "studentName": "أحمد حامد فيصل ثويني العنزى",
+    "civilId": "310041300388",
+    "mainCommittee": "اولي",
+    "subCommittee": "1",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10002",
+    "studentName": "أحمد خالد حمود مناور الشمري",
+    "civilId": "310071100117",
+    "mainCommittee": "اولي",
+    "subCommittee": "1",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10003",
+    "studentName": "أحمد خلف سالم مطر الشمري",
+    "civilId": "311030600689",
+    "mainCommittee": "اولي",
+    "subCommittee": "1",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10004",
+    "studentName": "أحمد عبدالله أحمد السعد",
+    "civilId": "310031800696",
+    "mainCommittee": "اولي",
+    "subCommittee": "1",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10005",
+    "studentName": "أحمد علي عباس حيدر",
+    "civilId": "310120101969",
+    "mainCommittee": "اولي",
+    "subCommittee": "1",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10006",
+    "studentName": "أحمد فهد سعد المطيري",
+    "civilId": "310101101285",
+    "mainCommittee": "اولي",
+    "subCommittee": "1",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10007",
+    "studentName": "أحمد محمد باقر الجدي",
+    "civilId": "310120200748",
+    "mainCommittee": "اولي",
+    "subCommittee": "1",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10008",
+    "studentName": "أحمد محمد حسن العنزي",
+    "civilId": "310081200242",
+    "mainCommittee": "اولي",
+    "subCommittee": "1",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10009",
+    "studentName": "أنس غازي ذياب الشمري",
+    "civilId": "310111101676",
+    "mainCommittee": "اولي",
+    "subCommittee": "1",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10010",
+    "studentName": "أيوب عبدالهادي غريب محمد المطيري",
+    "civilId": "310112400897",
+    "mainCommittee": "اولي",
+    "subCommittee": "1",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10011",
+    "studentName": "ابراهيم خالد محسن الحسيني",
+    "civilId": "310092300791",
+    "mainCommittee": "اولي",
+    "subCommittee": "1",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10012",
+    "studentName": "ابراهيم سعد ناصر البذالي",
+    "civilId": "309103000973",
+    "mainCommittee": "اولي",
+    "subCommittee": "1",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10013",
+    "studentName": "ابراهيم على حسين البلوشي",
+    "civilId": "311020800708",
+    "mainCommittee": "اولي",
+    "subCommittee": "1",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10014",
+    "studentName": "ابراهيم فلاح غريب الصليلي",
+    "civilId": "310082502699",
+    "mainCommittee": "اولي",
+    "subCommittee": "1",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10015",
+    "studentName": "ابراهيم محمد فياض معيض عابر العنزي",
+    "civilId": "310052300332",
+    "mainCommittee": "اولي",
+    "subCommittee": "1",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10016",
+    "studentName": "احمد جابر احمد الشطي",
+    "civilId": "310101200574",
+    "mainCommittee": "اولي",
+    "subCommittee": "1",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10017",
+    "studentName": "احمد حمود طلق الرشيدي",
+    "civilId": "311021400685",
+    "mainCommittee": "اولي",
+    "subCommittee": "1",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10018",
+    "studentName": "احمد رائد غلاب الميموني",
+    "civilId": "310123100064",
+    "mainCommittee": "اولي",
+    "subCommittee": "1",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10019",
+    "studentName": "احمد عبداللة جاسم محمد الغضوري العنزي",
+    "civilId": "310041600196",
+    "mainCommittee": "اولي",
+    "subCommittee": "1",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10020",
+    "studentName": "احمد نواف سعد محمد الحربى",
+    "civilId": "310041200205",
+    "mainCommittee": "اولي",
+    "subCommittee": "1",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10021",
+    "studentName": "اسامه عبدالعزيز بردي محمد العلاطي",
+    "civilId": "310062500573",
+    "mainCommittee": "اولي",
+    "subCommittee": "2",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10022",
+    "studentName": "اسامه عواد خليف العنزي",
+    "civilId": "309041801731",
+    "mainCommittee": "اولي",
+    "subCommittee": "2",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10023",
+    "studentName": "البراء عبدالله فرحان بوغيث",
+    "civilId": "310070200319",
+    "mainCommittee": "اولي",
+    "subCommittee": "2",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10024",
+    "studentName": "انس عيسى سالم حجر العنزي",
+    "civilId": "310080400111",
+    "mainCommittee": "اولي",
+    "subCommittee": "2",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10025",
+    "studentName": "باسل سالم عبدالله العنزي",
+    "civilId": "309060202064",
+    "mainCommittee": "اولي",
+    "subCommittee": "2",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10026",
+    "studentName": "باسل محمد عادل ابراهيم",
+    "civilId": "310090100729",
+    "mainCommittee": "اولي",
+    "subCommittee": "2",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10027",
+    "studentName": "بدر سليمان رافع الشمري",
+    "civilId": "310071600162",
+    "mainCommittee": "اولي",
+    "subCommittee": "2",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10028",
+    "studentName": "بدر عبدالله عبدالرزاق سليمان",
+    "civilId": "310051300234",
+    "mainCommittee": "اولي",
+    "subCommittee": "2",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10029",
+    "studentName": "بدر فلاح خلف زيدان الرشيدي",
+    "civilId": "310051500367",
+    "mainCommittee": "اولي",
+    "subCommittee": "2",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10030",
+    "studentName": "بدر محمد عبد الرحمن المطيري",
+    "civilId": "310041000502",
+    "mainCommittee": "اولي",
+    "subCommittee": "2",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10031",
+    "studentName": "بشار هادي معتق هوير الضفيري",
+    "civilId": "310051100208",
+    "mainCommittee": "اولي",
+    "subCommittee": "2",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10032",
+    "studentName": "تركي بدر خلف عشان العنزي",
+    "civilId": "310121502035",
+    "mainCommittee": "اولي",
+    "subCommittee": "2",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10033",
+    "studentName": "تركي حمدان عويد البذالي",
+    "civilId": "309042301798",
+    "mainCommittee": "اولي",
+    "subCommittee": "2",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10034",
+    "studentName": "تركي حمود متعب المطيرى",
+    "civilId": "309030600328",
+    "mainCommittee": "اولي",
+    "subCommittee": "2",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10035",
+    "studentName": "تركي خالد عبود الظفيري",
+    "civilId": "310070700065",
+    "mainCommittee": "اولي",
+    "subCommittee": "2",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10036",
+    "studentName": "تركي شايع تركي المطيري",
+    "civilId": "310111800573",
+    "mainCommittee": "اولي",
+    "subCommittee": "2",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10037",
+    "studentName": "تركي ضاري عبيد الظفيري",
+    "civilId": "310040700195",
+    "mainCommittee": "اولي",
+    "subCommittee": "2",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10038",
+    "studentName": "تركي عادل سائر العنزي",
+    "civilId": "309051501513",
+    "mainCommittee": "اولي",
+    "subCommittee": "2",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10039",
+    "studentName": "تركي فيصل عبد الله الذيابي",
+    "civilId": "310060202011",
+    "mainCommittee": "اولي",
+    "subCommittee": "2",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10040",
+    "studentName": "ثامر فايز مسير الشمري",
+    "civilId": "310110201827",
+    "mainCommittee": "اولي",
+    "subCommittee": "2",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10041",
+    "studentName": "جابر انور علي باقر",
+    "civilId": "309010200896",
+    "mainCommittee": "اولي",
+    "subCommittee": "3",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10042",
+    "studentName": "جابر عبدالله احمد العنزي",
+    "civilId": "311031201217",
+    "mainCommittee": "اولي",
+    "subCommittee": "3",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10043",
+    "studentName": "جاسم حسين جاسم البلوشي",
+    "civilId": "310113000844",
+    "mainCommittee": "اولي",
+    "subCommittee": "3",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10044",
+    "studentName": "جاسم عبدالله فيصل الناصر",
+    "civilId": "309032701034",
+    "mainCommittee": "لجنة خاصة",
+    "subCommittee": "1",
+    "committeeLocation": "الدور الأرضي يسار فصل 10-1",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10045",
+    "studentName": "جاسم لافي حمود الظفيري",
+    "civilId": "310090600168",
+    "mainCommittee": "اولي",
+    "subCommittee": "3",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10046",
+    "studentName": "جاسم محمد اسماعيل القلاف",
+    "civilId": "311011201295",
+    "mainCommittee": "اولي",
+    "subCommittee": "3",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10047",
+    "studentName": "جراح بدر مسعود المطيري",
+    "civilId": "310101601554",
+    "mainCommittee": "اولي",
+    "subCommittee": "3",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10048",
+    "studentName": "جراح عادل صالح خليف العنزي",
+    "civilId": "310121401242",
+    "mainCommittee": "اولي",
+    "subCommittee": "3",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10049",
+    "studentName": "حبيب منيف محمد حمدان البناقي",
+    "civilId": "309091900033",
+    "mainCommittee": "اولي",
+    "subCommittee": "3",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10050",
+    "studentName": "حسن احمد عبدالكريم المسلم",
+    "civilId": "310062100094",
+    "mainCommittee": "اولي",
+    "subCommittee": "3",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10051",
+    "studentName": "حسن محمود حبيب المهنا",
+    "civilId": "311011800036",
+    "mainCommittee": "اولي",
+    "subCommittee": "3",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10052",
+    "studentName": "حسين اسماعيل خليل دشتى",
+    "civilId": "310041100212",
+    "mainCommittee": "اولي",
+    "subCommittee": "3",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10053",
+    "studentName": "حسين عبدالعزيز اسماعيل ابراهيم اسماعيل",
+    "civilId": "309062500727",
+    "mainCommittee": "اولي",
+    "subCommittee": "3",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10054",
+    "studentName": "حسين علي محمود بهرام",
+    "civilId": "310033000588",
+    "mainCommittee": "اولي",
+    "subCommittee": "3",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10055",
+    "studentName": "حسين محمد سالم نجم",
+    "civilId": "310050400532",
+    "mainCommittee": "اولي",
+    "subCommittee": "3",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10056",
+    "studentName": "حكيم محمود علي الشرمان",
+    "civilId": "310082502269",
+    "mainCommittee": "اولي",
+    "subCommittee": "3",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10057",
+    "studentName": "حمد احمد حسن حمود",
+    "civilId": "310062802336",
+    "mainCommittee": "اولي",
+    "subCommittee": "3",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10058",
+    "studentName": "حمد بدر عادل بوعلوا",
+    "civilId": "310051600317",
+    "mainCommittee": "اولي",
+    "subCommittee": "3",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10059",
+    "studentName": "حمد حمود مانع الشمري",
+    "civilId": "310040300239",
+    "mainCommittee": "اولي",
+    "subCommittee": "3",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10060",
+    "studentName": "حمد عبد الله حمد العنزى",
+    "civilId": "311022200677",
+    "mainCommittee": "اولي",
+    "subCommittee": "3",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10061",
+    "studentName": "حمد عبد الله عيسى على",
+    "civilId": "308071800022",
+    "mainCommittee": "اولي",
+    "subCommittee": "4",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10062",
+    "studentName": "حمد عبدالله رجعان الرشيدي",
+    "civilId": "309031501401",
+    "mainCommittee": "اولي",
+    "subCommittee": "4",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10063",
+    "studentName": "حمد نواف نهير خلف المطيري",
+    "civilId": "310052800062",
+    "mainCommittee": "اولي",
+    "subCommittee": "4",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10064",
+    "studentName": "حمد وليد سالم صياح عايد الشمري",
+    "civilId": "310102300577",
+    "mainCommittee": "اولي",
+    "subCommittee": "4",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10065",
+    "studentName": "حمود بدر سعود العنزي",
+    "civilId": "310121400872",
+    "mainCommittee": "اولي",
+    "subCommittee": "4",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10066",
+    "studentName": "حمود سلمان حمود الهاجري",
+    "civilId": "310040400598",
+    "mainCommittee": "اولي",
+    "subCommittee": "4",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10067",
+    "studentName": "حمود فيصل أحمد المطر",
+    "civilId": "309042002181",
+    "mainCommittee": "اولي",
+    "subCommittee": "4",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10068",
+    "studentName": "حمود محمد حمود العدواني",
+    "civilId": "309102501231",
+    "mainCommittee": "اولي",
+    "subCommittee": "4",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10069",
+    "studentName": "خالد بدر ليل العجمي",
+    "civilId": "310111500925",
+    "mainCommittee": "اولي",
+    "subCommittee": "4",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10070",
+    "studentName": "خالد حبيب منوخ الشمري",
+    "civilId": "310072201622",
+    "mainCommittee": "اولي",
+    "subCommittee": "4",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10071",
+    "studentName": "خالد حمد حسن العجمي",
+    "civilId": "310040900728",
+    "mainCommittee": "اولي",
+    "subCommittee": "4",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10072",
+    "studentName": "خالد سعود سلامه العنزي",
+    "civilId": "308072400039",
+    "mainCommittee": "اولي",
+    "subCommittee": "4",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10073",
+    "studentName": "خالد صالح حسين محمد الجبلي",
+    "civilId": "310042800114",
+    "mainCommittee": "اولي",
+    "subCommittee": "4",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10074",
+    "studentName": "خالد طلال سامي علي",
+    "civilId": "310072400533",
+    "mainCommittee": "اولي",
+    "subCommittee": "4",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10075",
+    "studentName": "خالد عبدالرحمن خالد المنصور",
+    "civilId": "310121700103",
+    "mainCommittee": "اولي",
+    "subCommittee": "4",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10076",
+    "studentName": "خالد وليد رمضان منيف العنزي",
+    "civilId": "310072501721",
+    "mainCommittee": "اولي",
+    "subCommittee": "4",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10077",
+    "studentName": "خلف خالد سرحان رحيل الظفيري",
+    "civilId": "310120300052",
+    "mainCommittee": "اولي",
+    "subCommittee": "4",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10078",
+    "studentName": "خلف محمد خلف المطيرى",
+    "civilId": "310110800045",
+    "mainCommittee": "اولي",
+    "subCommittee": "4",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10079",
+    "studentName": "خليل أحمد خليل ابراهيم الفيلكاوي",
+    "civilId": "310060500203",
+    "mainCommittee": "اولي",
+    "subCommittee": "4",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10080",
+    "studentName": "داود أحمد يوسف عبدالله",
+    "civilId": "311011102203",
+    "mainCommittee": "اولي",
+    "subCommittee": "4",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10081",
+    "studentName": "دخيل حمد مانع عيد هندي العجمي",
+    "civilId": "310122100257",
+    "mainCommittee": "لجنة خاصة",
+    "subCommittee": "1",
+    "committeeLocation": "الدور الأرضي يسار فصل 10-1",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10082",
+    "studentName": "راشد حمد عزيز محمد",
+    "civilId": "310063002111",
+    "mainCommittee": "اولي",
+    "subCommittee": "5",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10083",
+    "studentName": "راشد محمد بجاد العتيبى",
+    "civilId": "310120900138",
+    "mainCommittee": "اولي",
+    "subCommittee": "5",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10084",
+    "studentName": "راكان أحمد حايف العنزي",
+    "civilId": "308031601483",
+    "mainCommittee": "اولي",
+    "subCommittee": "5",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10085",
+    "studentName": "راكان عبدالعزيز حابس غضبان الصقري العنزي",
+    "civilId": "310092802337",
+    "mainCommittee": "اولي",
+    "subCommittee": "5",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10086",
+    "studentName": "راكان مشارى فيصل المذكور",
+    "civilId": "310032700638",
+    "mainCommittee": "اولي",
+    "subCommittee": "5",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10087",
+    "studentName": "زايد حمد حمود الهاجري",
+    "civilId": "310062500098",
+    "mainCommittee": "اولي",
+    "subCommittee": "5",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10088",
+    "studentName": "زيد خالد محمد الصانع",
+    "civilId": "311031100766",
+    "mainCommittee": "اولي",
+    "subCommittee": "5",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10089",
+    "studentName": "زيد فهد حجاج المطيرى",
+    "civilId": "309121101057",
+    "mainCommittee": "اولي",
+    "subCommittee": "5",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10090",
+    "studentName": "زيد نايف زيد زيد",
+    "civilId": "310031002088",
+    "mainCommittee": "اولي",
+    "subCommittee": "5",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10091",
+    "studentName": "سالم اسامه فهد غنيم الظفيري",
+    "civilId": "311012100074",
+    "mainCommittee": "اولي",
+    "subCommittee": "5",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10092",
+    "studentName": "سالم عايد بجاد بجيد الماجدي",
+    "civilId": "310062200343",
+    "mainCommittee": "اولي",
+    "subCommittee": "5",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10093",
+    "studentName": "سالم عبدالعزيز سالم صياح الشمرى",
+    "civilId": "310060501601",
+    "mainCommittee": "اولي",
+    "subCommittee": "5",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10094",
+    "studentName": "سالم عبيد سليم المطيري",
+    "civilId": "310090400537",
+    "mainCommittee": "اولي",
+    "subCommittee": "5",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10095",
+    "studentName": "سالم فواز سالم صقر سالم سيحان السعيدي",
+    "civilId": "309031800049",
+    "mainCommittee": "اولي",
+    "subCommittee": "5",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10096",
+    "studentName": "ساير محمد ساير السعيدي",
+    "civilId": "310112000623",
+    "mainCommittee": "اولي",
+    "subCommittee": "5",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10097",
+    "studentName": "سعد بدر مشعل الضفيري",
+    "civilId": "309090700478",
+    "mainCommittee": "اولي",
+    "subCommittee": "5",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10098",
+    "studentName": "سعد خالد ماطر الديحاني",
+    "civilId": "310051000047",
+    "mainCommittee": "اولي",
+    "subCommittee": "5",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10099",
+    "studentName": "سعد سالم سطم عواد الشمري",
+    "civilId": "310060201414",
+    "mainCommittee": "اولي",
+    "subCommittee": "5",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10100",
+    "studentName": "سعود حمد سعود الصقعبى",
+    "civilId": "310062201696",
+    "mainCommittee": "اولي",
+    "subCommittee": "5",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10101",
+    "studentName": "سعود عبد العزيز مهيل السعيدى",
+    "civilId": "310090500458",
+    "mainCommittee": "اولي",
+    "subCommittee": "6",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10102",
+    "studentName": "سعود فيصل عوض العنزي",
+    "civilId": "310040600573",
+    "mainCommittee": "اولي",
+    "subCommittee": "6",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10103",
+    "studentName": "سعود محمد نادر القحطاني",
+    "civilId": "310071501084",
+    "mainCommittee": "اولي",
+    "subCommittee": "6",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10104",
+    "studentName": "سعود وليد عايض عايد الرشيدى",
+    "civilId": "310082800135",
+    "mainCommittee": "اولي",
+    "subCommittee": "6",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10105",
+    "studentName": "سلطان عادل جابر الشمري",
+    "civilId": "309020200291",
+    "mainCommittee": "اولي",
+    "subCommittee": "6",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10106",
+    "studentName": "سلطان عبد الله محمد مبارك العجمي",
+    "civilId": "310122400604",
+    "mainCommittee": "اولي",
+    "subCommittee": "6",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10107",
+    "studentName": "سلطان عبدالسلام محمد ضبعان الرشيدي",
+    "civilId": "310032500281",
+    "mainCommittee": "اولي",
+    "subCommittee": "6",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10108",
+    "studentName": "سلطان عيسى حامد الشمري",
+    "civilId": "310081701223",
+    "mainCommittee": "اولي",
+    "subCommittee": "6",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10109",
+    "studentName": "سلطان يوسف خضير المطيري",
+    "civilId": "310100400363",
+    "mainCommittee": "اولي",
+    "subCommittee": "6",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10110",
+    "studentName": "سلمان تركي لافي فلاح",
+    "civilId": "309072601759",
+    "mainCommittee": "اولي",
+    "subCommittee": "6",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10111",
+    "studentName": "سلمان حمد دليم رفاعي المطيري",
+    "civilId": "310060601354",
+    "mainCommittee": "اولي",
+    "subCommittee": "6",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10112",
+    "studentName": "سليمان أحمد عبدالكريم القطان",
+    "civilId": "311012200155",
+    "mainCommittee": "اولي",
+    "subCommittee": "6",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10113",
+    "studentName": "سليمان احمد سليمان الشطي",
+    "civilId": "311030401102",
+    "mainCommittee": "اولي",
+    "subCommittee": "6",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10114",
+    "studentName": "سليمان خالد سليمان مناع الحربي",
+    "civilId": "310122000168",
+    "mainCommittee": "اولي",
+    "subCommittee": "6",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10115",
+    "studentName": "سليمان نواف عيد الديحاني",
+    "civilId": "310032700152",
+    "mainCommittee": "اولي",
+    "subCommittee": "6",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10116",
+    "studentName": "سيد علي يعقوب عبدالحميد سيد حمزه",
+    "civilId": "310120101205",
+    "mainCommittee": "اولي",
+    "subCommittee": "6",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10117",
+    "studentName": "سيدحسين سيدمحمد حسين الحداد",
+    "civilId": "310112600485",
+    "mainCommittee": "اولي",
+    "subCommittee": "6",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10118",
+    "studentName": "سيف اسامه فهد غنيم الظفيري",
+    "civilId": "311012100103",
+    "mainCommittee": "اولي",
+    "subCommittee": "6",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10119",
+    "studentName": "سيف محمد حبيب الرشيدي",
+    "civilId": "310061701672",
+    "mainCommittee": "اولي",
+    "subCommittee": "6",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10120",
+    "studentName": "شافي محمد شافى غليفص محمد العجمي",
+    "civilId": "310101400832",
+    "mainCommittee": "اولي",
+    "subCommittee": "6",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10121",
+    "studentName": "شاهين عبدالعزيز العنزي",
+    "civilId": "310111600176",
+    "mainCommittee": "اولي",
+    "subCommittee": "7",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10122",
+    "studentName": "صالح علي سهيل العنزي",
+    "civilId": "311012901103",
+    "mainCommittee": "اولي",
+    "subCommittee": "7",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10123",
+    "studentName": "صالح فالح فهد محمد احبيط العجمي",
+    "civilId": "311011201834",
+    "mainCommittee": "اولي",
+    "subCommittee": "7",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10124",
+    "studentName": "صالح ناصر صالح علي",
+    "civilId": "310102800248",
+    "mainCommittee": "اولي",
+    "subCommittee": "7",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10125",
+    "studentName": "صقر احمد عبدالرحمن مطلق الخالدي",
+    "civilId": "310081300331",
+    "mainCommittee": "اولي",
+    "subCommittee": "7",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10126",
+    "studentName": "صقر عبدالعزيز حسين العنزي",
+    "civilId": "310060400229",
+    "mainCommittee": "اولي",
+    "subCommittee": "7",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10127",
+    "studentName": "ضارى محمد تركى عطيه بكوري العنزي",
+    "civilId": "310072200152",
+    "mainCommittee": "اولي",
+    "subCommittee": "7",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10128",
+    "studentName": "ضاري محمد ضيف الله سميان البذالي",
+    "civilId": "310100901205",
+    "mainCommittee": "اولي",
+    "subCommittee": "7",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10129",
+    "studentName": "ضيف الله عيسى ضيف الله الرشيدي",
+    "civilId": "311021000171",
+    "mainCommittee": "اولي",
+    "subCommittee": "7",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10130",
+    "studentName": "طلال احمد متعب الشمري",
+    "civilId": "311010800544",
+    "mainCommittee": "اولي",
+    "subCommittee": "7",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10131",
+    "studentName": "طلال عباس على حسن النعيمى",
+    "civilId": "310040300271",
+    "mainCommittee": "اولي",
+    "subCommittee": "7",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10132",
+    "studentName": "طلال عيد شطيط العنزي",
+    "civilId": "310091600792",
+    "mainCommittee": "اولي",
+    "subCommittee": "7",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10133",
+    "studentName": "طلال مبارك عيد الديحاني",
+    "civilId": "309111900285",
+    "mainCommittee": "اولي",
+    "subCommittee": "7",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10134",
+    "studentName": "عادل طلال خالد العنزى",
+    "civilId": "311020701363",
+    "mainCommittee": "اولي",
+    "subCommittee": "7",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10135",
+    "studentName": "عامر ثامر مرضي العجمي",
+    "civilId": "310120500513",
+    "mainCommittee": "اولي",
+    "subCommittee": "7",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10136",
+    "studentName": "عايد علي عائد خليف الشمري",
+    "civilId": "310062600179",
+    "mainCommittee": "اولي",
+    "subCommittee": "7",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10137",
+    "studentName": "عبد العزيز ايمن جاسم العثمان",
+    "civilId": "309080100524",
+    "mainCommittee": "اولي",
+    "subCommittee": "7",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10138",
+    "studentName": "عبد الله حسين عبد الجبار حسن",
+    "civilId": "309072801451",
+    "mainCommittee": "اولي",
+    "subCommittee": "7",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10139",
+    "studentName": "عبد الله صالح دويس صالح السعيدي",
+    "civilId": "310071200388",
+    "mainCommittee": "اولي",
+    "subCommittee": "7",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10140",
+    "studentName": "عبد الله محمد عجلان العنزي",
+    "civilId": "310103100657",
+    "mainCommittee": "اولي",
+    "subCommittee": "7",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10141",
+    "studentName": "عبدالحافظ خالد عبدالحافظ احمد",
+    "civilId": "310120800874",
+    "mainCommittee": "اولي",
+    "subCommittee": "8",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10142",
+    "studentName": "عبدالرحمن بدر حسين جابر الشمري",
+    "civilId": "311022200562",
+    "mainCommittee": "اولي",
+    "subCommittee": "8",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10143",
+    "studentName": "عبدالرحمن حمود عبدالرحمن المعييف",
+    "civilId": "310053100113",
+    "mainCommittee": "اولي",
+    "subCommittee": "8",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10144",
+    "studentName": "عبدالرحمن صلاح مياح دهيمان السويط",
+    "civilId": "310092800315",
+    "mainCommittee": "اولي",
+    "subCommittee": "8",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10145",
+    "studentName": "عبدالرحمن طلال عبدالكريم العنزي",
+    "civilId": "310081400754",
+    "mainCommittee": "اولي",
+    "subCommittee": "8",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10146",
+    "studentName": "عبدالرحمن عادل جابر عطيه الشمري",
+    "civilId": "310052701662",
+    "mainCommittee": "اولي",
+    "subCommittee": "8",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10147",
+    "studentName": "عبدالرحمن فهد مجبل المطيري",
+    "civilId": "310082300915",
+    "mainCommittee": "اولي",
+    "subCommittee": "8",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10148",
+    "studentName": "عبدالرحمن فيصل عبدالله جابر العنزي",
+    "civilId": "309101000363",
+    "mainCommittee": "اولي",
+    "subCommittee": "8",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10149",
+    "studentName": "عبدالرحمن محمد مجزع الشمرى",
+    "civilId": "309071801484",
+    "mainCommittee": "اولي",
+    "subCommittee": "8",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10150",
+    "studentName": "عبدالرحمن مساعد صالح العنزي",
+    "civilId": "310120200377",
+    "mainCommittee": "اولي",
+    "subCommittee": "8",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10151",
+    "studentName": "عبدالرحمن يحى مرشد الجميلي",
+    "civilId": "311012200091",
+    "mainCommittee": "اولي",
+    "subCommittee": "8",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10152",
+    "studentName": "عبدالرزاق سليمان خلف العنيزى",
+    "civilId": "310091100421",
+    "mainCommittee": "اولي",
+    "subCommittee": "8",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10153",
+    "studentName": "عبدالعزيز بدر بعيجان المطيري",
+    "civilId": "310101601861",
+    "mainCommittee": "اولي",
+    "subCommittee": "8",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10154",
+    "studentName": "عبدالعزيز سعود محمد العنزي",
+    "civilId": "310071501818",
+    "mainCommittee": "اولي",
+    "subCommittee": "8",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10155",
+    "studentName": "عبدالعزيز طلال وحيد الشمري",
+    "civilId": "309070700147",
+    "mainCommittee": "اولي",
+    "subCommittee": "8",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10156",
+    "studentName": "عبدالعزيز على عبدالرحمن الكندرى",
+    "civilId": "310061701103",
+    "mainCommittee": "اولي",
+    "subCommittee": "8",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10157",
+    "studentName": "عبدالعزيز علي عبدالعزيز الكندرى",
+    "civilId": "310062401751",
+    "mainCommittee": "اولي",
+    "subCommittee": "8",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10158",
+    "studentName": "عبدالعزيز محمد عبدالحافظ احمد",
+    "civilId": "310100400128",
+    "mainCommittee": "اولي",
+    "subCommittee": "8",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10159",
+    "studentName": "عبدالعزيز محمد فيصل صالح خليفه الجيماز",
+    "civilId": "310031601195",
+    "mainCommittee": "اولي",
+    "subCommittee": "8",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10160",
+    "studentName": "عبدالعزيز مهدى راشد العجمى",
+    "civilId": "310010700696",
+    "mainCommittee": "اولي",
+    "subCommittee": "8",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10161",
+    "studentName": "عبدالكريم جراح عبد الكريم العنزي",
+    "civilId": "310020100061",
+    "mainCommittee": "اولي",
+    "subCommittee": "9",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10162",
+    "studentName": "عبدالكريم مشعل شخيرعبدالله كزار العنزى",
+    "civilId": "310101501713",
+    "mainCommittee": "اولي",
+    "subCommittee": "9",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10163",
+    "studentName": "عبداللطيف علي حسين الصيرفى",
+    "civilId": "310072700173",
+    "mainCommittee": "اولي",
+    "subCommittee": "9",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10164",
+    "studentName": "عبدالله احمد مصلح علي طعيمس المطيري",
+    "civilId": "311011101024",
+    "mainCommittee": "اولي",
+    "subCommittee": "9",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10165",
+    "studentName": "عبدالله حمد مهدى عبد العزيز احمد",
+    "civilId": "311011500412",
+    "mainCommittee": "اولي",
+    "subCommittee": "9",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10166",
+    "studentName": "عبدالله حمد نزال مطلق الشمرى",
+    "civilId": "310081900265",
+    "mainCommittee": "اولي",
+    "subCommittee": "9",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10167",
+    "studentName": "عبدالله خالد سعود العجمي",
+    "civilId": "310062300619",
+    "mainCommittee": "اولي",
+    "subCommittee": "9",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10168",
+    "studentName": "عبدالله خالد سليمان الحربي",
+    "civilId": "310012400195",
+    "mainCommittee": "اولي",
+    "subCommittee": "9",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10169",
+    "studentName": "عبدالله خالد عايدعبدالله الشمري",
+    "civilId": "310102800176",
+    "mainCommittee": "اولي",
+    "subCommittee": "9",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10170",
+    "studentName": "عبدالله خالد مرزوق الفضلي",
+    "civilId": "308112302098",
+    "mainCommittee": "اولي",
+    "subCommittee": "9",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10171",
+    "studentName": "عبدالله زبن دعال السبيعى",
+    "civilId": "310102501344",
+    "mainCommittee": "اولي",
+    "subCommittee": "9",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10172",
+    "studentName": "عبدالله سالم عبدالله الشمري",
+    "civilId": "311011801397",
+    "mainCommittee": "اولي",
+    "subCommittee": "9",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10173",
+    "studentName": "عبدالله سالم عبدالله المحينى",
+    "civilId": "310060901103",
+    "mainCommittee": "اولي",
+    "subCommittee": "9",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10174",
+    "studentName": "عبدالله سعد صالح نمر",
+    "civilId": "310121400426",
+    "mainCommittee": "اولي",
+    "subCommittee": "9",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10175",
+    "studentName": "عبدالله سليمان عبد الله صالح",
+    "civilId": "311012101448",
+    "mainCommittee": "اولي",
+    "subCommittee": "9",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10176",
+    "studentName": "عبدالله على عبدالله الاستاد",
+    "civilId": "310080700368",
+    "mainCommittee": "اولي",
+    "subCommittee": "9",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10177",
+    "studentName": "عبدالله عوض متروك العتيبي",
+    "civilId": "308090201025",
+    "mainCommittee": "اولي",
+    "subCommittee": "9",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10178",
+    "studentName": "عبدالله فهد كامل السبيعي",
+    "civilId": "310092802011",
+    "mainCommittee": "اولي",
+    "subCommittee": "9",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10179",
+    "studentName": "عبدالله فيصل عبدالله الشمري",
+    "civilId": "311011400059",
+    "mainCommittee": "اولي",
+    "subCommittee": "9",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10180",
+    "studentName": "عبدالله فيصل عيد عطيه",
+    "civilId": "309091800884",
+    "mainCommittee": "اولي",
+    "subCommittee": "9",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10181",
+    "studentName": "عبدالله قنيص عبدالمحسن شومي العدوانى",
+    "civilId": "310082700214",
+    "mainCommittee": "اولي",
+    "subCommittee": "10",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10182",
+    "studentName": "عبدالله مبارك غليفص بخيت الهاجري",
+    "civilId": "311021900559",
+    "mainCommittee": "اولي",
+    "subCommittee": "10",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10183",
+    "studentName": "عبدالله محمد دحيلان الحربى",
+    "civilId": "310051500316",
+    "mainCommittee": "اولي",
+    "subCommittee": "10",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10184",
+    "studentName": "عبدالله محمد سعدي الرشيدي",
+    "civilId": "310061300289",
+    "mainCommittee": "اولي",
+    "subCommittee": "10",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10185",
+    "studentName": "عبدالله محمد على عبد الله",
+    "civilId": "310081902308",
+    "mainCommittee": "اولي",
+    "subCommittee": "10",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10186",
+    "studentName": "عبدالله محمد فياض مطر نهار سلطان الذايدي",
+    "civilId": "311013101298",
+    "mainCommittee": "اولي",
+    "subCommittee": "10",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10187",
+    "studentName": "عبدالله محمد وليد الشامري",
+    "civilId": "310070701922",
+    "mainCommittee": "اولي",
+    "subCommittee": "10",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10188",
+    "studentName": "عبدالله هاني محسن الشمري",
+    "civilId": "311020600378",
+    "mainCommittee": "اولي",
+    "subCommittee": "10",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10189",
+    "studentName": "عبدالمحسن ماجد عويض الشلاحي",
+    "civilId": "310060800505",
+    "mainCommittee": "اولي",
+    "subCommittee": "10",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10190",
+    "studentName": "عبدالمحسن مساعد خليفه الحربي",
+    "civilId": "310122700084",
+    "mainCommittee": "اولي",
+    "subCommittee": "10",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10191",
+    "studentName": "عبدالوهاب سعود خالد الحربي",
+    "civilId": "310091300415",
+    "mainCommittee": "اولي",
+    "subCommittee": "10",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10192",
+    "studentName": "عبدالوهاب سليمان محمد ابراهيم الناصر",
+    "civilId": "310122500488",
+    "mainCommittee": "اولي",
+    "subCommittee": "10",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10193",
+    "studentName": "عبدالوهاب فالح علي العجمي",
+    "civilId": "311010101604",
+    "mainCommittee": "اولي",
+    "subCommittee": "10",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10194",
+    "studentName": "عبدالوهاب فواز فيصل معلا عجلان العنزى",
+    "civilId": "310090400422",
+    "mainCommittee": "اولي",
+    "subCommittee": "10",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10195",
+    "studentName": "عثمان حامد جاسم العنزى",
+    "civilId": "310060500123",
+    "mainCommittee": "اولي",
+    "subCommittee": "10",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10196",
+    "studentName": "عثمان دغيم عواد الضفيري",
+    "civilId": "310090201132",
+    "mainCommittee": "اولي",
+    "subCommittee": "10",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10197",
+    "studentName": "عثمان سالم ثويني الظفيري",
+    "civilId": "310091000746",
+    "mainCommittee": "اولي",
+    "subCommittee": "10",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10198",
+    "studentName": "عثمان سلامه رجا كميخ سلطان جلال",
+    "civilId": "310072200419",
+    "mainCommittee": "اولي",
+    "subCommittee": "10",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10199",
+    "studentName": "عثمان نواف مجحم دهش المطيري",
+    "civilId": "310092900121",
+    "mainCommittee": "اولي",
+    "subCommittee": "10",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10200",
+    "studentName": "عذبي معتق جبان الصليلي",
+    "civilId": "310051002165",
+    "mainCommittee": "اولي",
+    "subCommittee": "10",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10201",
+    "studentName": "عذبي نواف صليبان الحربي",
+    "civilId": "310041700103",
+    "mainCommittee": "اولي",
+    "subCommittee": "11",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10202",
+    "studentName": "عطاالله ضيف الله عبيد العنزي",
+    "civilId": "310091100659",
+    "mainCommittee": "اولي",
+    "subCommittee": "11",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10203",
+    "studentName": "عطاالله ممدوح مرزوق فريح الشمري",
+    "civilId": "309071800035",
+    "mainCommittee": "اولي",
+    "subCommittee": "11",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10204",
+    "studentName": "على خالد رميض حنيش العنزى",
+    "civilId": "310032500652",
+    "mainCommittee": "اولي",
+    "subCommittee": "11",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10205",
+    "studentName": "على صالح على سالم البيض",
+    "civilId": "309040201259",
+    "mainCommittee": "اولي",
+    "subCommittee": "11",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10206",
+    "studentName": "على فهد على بومناه",
+    "civilId": "310090300288",
+    "mainCommittee": "اولي",
+    "subCommittee": "11",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10207",
+    "studentName": "على محمد علي المطيرى",
+    "civilId": "310121100482",
+    "mainCommittee": "اولي",
+    "subCommittee": "11",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10208",
+    "studentName": "علي أحمد محمد الفضلي",
+    "civilId": "310120300837",
+    "mainCommittee": "اولي",
+    "subCommittee": "11",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10209",
+    "studentName": "علي بدر شهاب حسن",
+    "civilId": "310101300647",
+    "mainCommittee": "اولي",
+    "subCommittee": "11",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10210",
+    "studentName": "علي حسين شهرياري كوتك",
+    "civilId": "309062001821",
+    "mainCommittee": "اولي",
+    "subCommittee": "11",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10211",
+    "studentName": "علي عبد الله على الدوسري",
+    "civilId": "311012601362",
+    "mainCommittee": "اولي",
+    "subCommittee": "11",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10212",
+    "studentName": "علي مشعان فهد النومس",
+    "civilId": "310060201967",
+    "mainCommittee": "اولي",
+    "subCommittee": "11",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10213",
+    "studentName": "عمر رومي فهد ضحوي الظفيري",
+    "civilId": "310071400291",
+    "mainCommittee": "اولي",
+    "subCommittee": "11",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10214",
+    "studentName": "عمر احمد عبد ضيون",
+    "civilId": "310040301733",
+    "mainCommittee": "اولي",
+    "subCommittee": "11",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10215",
+    "studentName": "عمر سالم محمد السبيعي",
+    "civilId": "310103100833",
+    "mainCommittee": "اولي",
+    "subCommittee": "11",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10216",
+    "studentName": "عمر ضيدان محمد المطيرى",
+    "civilId": "310081400041",
+    "mainCommittee": "اولي",
+    "subCommittee": "11",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10217",
+    "studentName": "عمر طلال منيف المطيري",
+    "civilId": "309122101016",
+    "mainCommittee": "اولي",
+    "subCommittee": "11",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10218",
+    "studentName": "عمر عبدالله مسعود الرشيدي",
+    "civilId": "310081100911",
+    "mainCommittee": "اولي",
+    "subCommittee": "11",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10219",
+    "studentName": "عمر فواز مصحب شنيف الظفيري",
+    "civilId": "310070701412",
+    "mainCommittee": "اولي",
+    "subCommittee": "11",
+    "committeeLocation": "صالة البدنية",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10220",
+    "studentName": "عمر فيصل سعود عوده السليماني",
+    "civilId": "311010600489",
+    "mainCommittee": "ثانية",
+    "subCommittee": "1",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10221",
+    "studentName": "عمر محمد معيوف الشمالي العجمي",
+    "civilId": "311021901121",
+    "mainCommittee": "ثانية",
+    "subCommittee": "1",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10222",
+    "studentName": "عمر مشعل مطلق العتيبى",
+    "civilId": "309081800792",
+    "mainCommittee": "ثانية",
+    "subCommittee": "1",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10223",
+    "studentName": "عمر منور شعوي عويض المطيري",
+    "civilId": "310091400192",
+    "mainCommittee": "ثانية",
+    "subCommittee": "1",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10224",
+    "studentName": "عمر نواف حميدي المطيري",
+    "civilId": "310072300225",
+    "mainCommittee": "ثانية",
+    "subCommittee": "1",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10225",
+    "studentName": "عمر وائل خيرالله نقيمش العنزي",
+    "civilId": "310052001527",
+    "mainCommittee": "ثانية",
+    "subCommittee": "1",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10226",
+    "studentName": "عيدان محمد عدنان العيدان",
+    "civilId": "309070102016",
+    "mainCommittee": "ثانية",
+    "subCommittee": "1",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10227",
+    "studentName": "عيسى عبدالله عيسى العنزى",
+    "civilId": "310110700407",
+    "mainCommittee": "ثانية",
+    "subCommittee": "1",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10228",
+    "studentName": "غازي حمد غازي الديحاني",
+    "civilId": "310091401902",
+    "mainCommittee": "ثانية",
+    "subCommittee": "1",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10229",
+    "studentName": "غنمان حمدان محمد حمدان عوده البناقي",
+    "civilId": "310071601536",
+    "mainCommittee": "ثانية",
+    "subCommittee": "1",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10230",
+    "studentName": "غيث علي عويد هليل البذالي",
+    "civilId": "311021500168",
+    "mainCommittee": "ثانية",
+    "subCommittee": "1",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10231",
+    "studentName": "فارس هذال مسعود العيبان",
+    "civilId": "310112300618",
+    "mainCommittee": "ثانية",
+    "subCommittee": "1",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10232",
+    "studentName": "فراج مشعل فراج عجاج الظفيري",
+    "civilId": "310092801078",
+    "mainCommittee": "ثانية",
+    "subCommittee": "1",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10233",
+    "studentName": "فهد احمد نايف مرزوق العنزي",
+    "civilId": "310120900517",
+    "mainCommittee": "ثانية",
+    "subCommittee": "1",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10234",
+    "studentName": "فهد اسامه فهد غنيم الظفيري",
+    "civilId": "311012100082",
+    "mainCommittee": "ثانية",
+    "subCommittee": "1",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10235",
+    "studentName": "فهد ثامر فهد الشمري",
+    "civilId": "309041800704",
+    "mainCommittee": "ثانية",
+    "subCommittee": "1",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10236",
+    "studentName": "فهد عبدالرحمن فهد العجمي",
+    "civilId": "310110802075",
+    "mainCommittee": "ثانية",
+    "subCommittee": "2",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10237",
+    "studentName": "فهد على مليحان حبيب السليمانى",
+    "civilId": "310061100228",
+    "mainCommittee": "ثانية",
+    "subCommittee": "2",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10238",
+    "studentName": "فهد ممدوح ضحوى طعيس متعب",
+    "civilId": "310092101717",
+    "mainCommittee": "ثانية",
+    "subCommittee": "2",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10239",
+    "studentName": "فواز مشعل نجر المطيري",
+    "civilId": "309111400707",
+    "mainCommittee": "ثانية",
+    "subCommittee": "2",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10240",
+    "studentName": "فيصل جزاع ثويني الظفيري",
+    "civilId": "310062000042",
+    "mainCommittee": "ثانية",
+    "subCommittee": "2",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10241",
+    "studentName": "فيصل سلف محمد الحريجي",
+    "civilId": "310042200979",
+    "mainCommittee": "ثانية",
+    "subCommittee": "2",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10242",
+    "studentName": "فيصل صلاح عهدى سالم عبدالله عيسى المطوع",
+    "civilId": "310070200503",
+    "mainCommittee": "ثانية",
+    "subCommittee": "2",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10243",
+    "studentName": "فيصل ضاحى مفلح محمد الصليلى",
+    "civilId": "310090800063",
+    "mainCommittee": "ثانية",
+    "subCommittee": "2",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10244",
+    "studentName": "ماجد احمد ماجد المطيري",
+    "civilId": "311012400202",
+    "mainCommittee": "ثانية",
+    "subCommittee": "2",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10245",
+    "studentName": "مبارك رشيد مبارك الرشيدي",
+    "civilId": "310070100238",
+    "mainCommittee": "ثانية",
+    "subCommittee": "2",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10246",
+    "studentName": "مبارك سالم عبدالله الشمري",
+    "civilId": "311011801426",
+    "mainCommittee": "ثانية",
+    "subCommittee": "2",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10247",
+    "studentName": "مبارك فهد عبد الله الطويان",
+    "civilId": "310041601631",
+    "mainCommittee": "ثانية",
+    "subCommittee": "2",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10248",
+    "studentName": "مبارك محمد مبارك الجدعى",
+    "civilId": "310081500333",
+    "mainCommittee": "ثانية",
+    "subCommittee": "2",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10249",
+    "studentName": "مبارك محمد نايف بليبص البذالي",
+    "civilId": "311012500078",
+    "mainCommittee": "ثانية",
+    "subCommittee": "2",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10250",
+    "studentName": "متعب طارق شاكر العنزي",
+    "civilId": "309041500103",
+    "mainCommittee": "ثانية",
+    "subCommittee": "2",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10251",
+    "studentName": "مجلاد عبد الله مجلاد الظفيرى",
+    "civilId": "309061401591",
+    "mainCommittee": "ثانية",
+    "subCommittee": "2",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10252",
+    "studentName": "محسن أحمد محسن المطيري",
+    "civilId": "310082601021",
+    "mainCommittee": "ثانية",
+    "subCommittee": "3",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10253",
+    "studentName": "محسن جويعد محسن العجمي",
+    "civilId": "310122301008",
+    "mainCommittee": "ثانية",
+    "subCommittee": "3",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10254",
+    "studentName": "محسن عبدالله خضر عايد",
+    "civilId": "310041600137",
+    "mainCommittee": "ثانية",
+    "subCommittee": "3",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10255",
+    "studentName": "محمد أحمد صلف المطيرى",
+    "civilId": "310081200197",
+    "mainCommittee": "ثانية",
+    "subCommittee": "3",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10256",
+    "studentName": "محمد أحمد محمد خميس",
+    "civilId": "310091601197",
+    "mainCommittee": "ثانية",
+    "subCommittee": "3",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10257",
+    "studentName": "محمد بدر عطاالله محمد العنزي",
+    "civilId": "310040500492",
+    "mainCommittee": "ثانية",
+    "subCommittee": "3",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10258",
+    "studentName": "محمد جابر ابراهيم البلوشي",
+    "civilId": "310042100142",
+    "mainCommittee": "ثانية",
+    "subCommittee": "3",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10259",
+    "studentName": "محمد جابر احمد الشطي",
+    "civilId": "310101200582",
+    "mainCommittee": "ثانية",
+    "subCommittee": "3",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10260",
+    "studentName": "محمد حمود ناصر الشمري",
+    "civilId": "309111601541",
+    "mainCommittee": "ثانية",
+    "subCommittee": "3",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10261",
+    "studentName": "محمد سعود محمد المطيرات",
+    "civilId": "308052600308",
+    "mainCommittee": "ثانية",
+    "subCommittee": "3",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10262",
+    "studentName": "محمد سلطان محمد هزاع المطيري",
+    "civilId": "311011200727",
+    "mainCommittee": "ثانية",
+    "subCommittee": "3",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10263",
+    "studentName": "محمد طارق محمد الثوينى",
+    "civilId": "310082400393",
+    "mainCommittee": "ثانية",
+    "subCommittee": "3",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10264",
+    "studentName": "محمد طارق محمد مطر",
+    "civilId": "311021400343",
+    "mainCommittee": "ثانية",
+    "subCommittee": "3",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10265",
+    "studentName": "محمد عايد فرج الشمري",
+    "civilId": "310071501017",
+    "mainCommittee": "ثانية",
+    "subCommittee": "3",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10266",
+    "studentName": "محمد عبدالرحمن محمد الانصاري",
+    "civilId": "310030200787",
+    "mainCommittee": "ثانية",
+    "subCommittee": "3",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10267",
+    "studentName": "محمد عبدالعزيز عبدالرحيم بوعباس",
+    "civilId": "311010700156",
+    "mainCommittee": "ثانية",
+    "subCommittee": "3",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10268",
+    "studentName": "محمد عبدالعزيز محمد حيدر",
+    "civilId": "310110500835",
+    "mainCommittee": "ثانية",
+    "subCommittee": "4",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10269",
+    "studentName": "محمد عبدالله خلف الشمرى",
+    "civilId": "310120201724",
+    "mainCommittee": "ثانية",
+    "subCommittee": "4",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10270",
+    "studentName": "محمد على مصطفى الكندرى",
+    "civilId": "310071800404",
+    "mainCommittee": "ثانية",
+    "subCommittee": "4",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10271",
+    "studentName": "محمد عيسى فريح الهاجري",
+    "civilId": "309052501523",
+    "mainCommittee": "ثانية",
+    "subCommittee": "4",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10272",
+    "studentName": "محمد فايز محمد المطيري",
+    "civilId": "310092201232",
+    "mainCommittee": "ثانية",
+    "subCommittee": "4",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10273",
+    "studentName": "محمد فهد راشد الحامد الشريف",
+    "civilId": "309072501504",
+    "mainCommittee": "ثانية",
+    "subCommittee": "4",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10274",
+    "studentName": "محمد مبارك حسين العنزي",
+    "civilId": "310081000363",
+    "mainCommittee": "ثانية",
+    "subCommittee": "4",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10275",
+    "studentName": "محمد مبارك سماح الحربي",
+    "civilId": "311031100053",
+    "mainCommittee": "ثانية",
+    "subCommittee": "4",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10276",
+    "studentName": "محمد مطلق محمد المطيري",
+    "civilId": "310062800509",
+    "mainCommittee": "ثانية",
+    "subCommittee": "4",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10277",
+    "studentName": "محمد مناف بوحيمد",
+    "civilId": "310070701236",
+    "mainCommittee": "ثانية",
+    "subCommittee": "4",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10278",
+    "studentName": "محمد منصور حامد الرشيدي",
+    "civilId": "310110102028",
+    "mainCommittee": "ثانية",
+    "subCommittee": "4",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10279",
+    "studentName": "محمد وليد عبدالرحمن القطان",
+    "civilId": "310081400578",
+    "mainCommittee": "ثانية",
+    "subCommittee": "4",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10280",
+    "studentName": "محمد يوسف فؤاد الشراح",
+    "civilId": "310081501344",
+    "mainCommittee": "ثانية",
+    "subCommittee": "4",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10281",
+    "studentName": "مرتضى حسن اسماعيل الفيلى",
+    "civilId": "310032500134",
+    "mainCommittee": "ثانية",
+    "subCommittee": "4",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10282",
+    "studentName": "مسير زبن مسير سعود فرحان الشمري",
+    "civilId": "310092502174",
+    "mainCommittee": "ثانية",
+    "subCommittee": "4",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10283",
+    "studentName": "مشاري سامي خويلد عبدالله شحاذ الصليلي",
+    "civilId": "310032000391",
+    "mainCommittee": "ثانية",
+    "subCommittee": "4",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10284",
+    "studentName": "مشاري فالح حسين الشمرى",
+    "civilId": "309091600831",
+    "mainCommittee": "ثانية",
+    "subCommittee": "5",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10285",
+    "studentName": "مشعل حشان حمود العجمي",
+    "civilId": "310051200401",
+    "mainCommittee": "ثانية",
+    "subCommittee": "5",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10286",
+    "studentName": "مشعل رياض مزعل العنزي",
+    "civilId": "310080401245",
+    "mainCommittee": "ثانية",
+    "subCommittee": "5",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10287",
+    "studentName": "مشعل فيصل حمود العدواني",
+    "civilId": "310042601182",
+    "mainCommittee": "ثانية",
+    "subCommittee": "5",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10288",
+    "studentName": "مصعب خالد دهيم الضفيري",
+    "civilId": "308091600562",
+    "mainCommittee": "ثانية",
+    "subCommittee": "5",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10289",
+    "studentName": "مصعب فواز محمد العنزى",
+    "civilId": "310052100218",
+    "mainCommittee": "ثانية",
+    "subCommittee": "5",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10290",
+    "studentName": "مضحي عامر ضحوي الظفيري",
+    "civilId": "310011302016",
+    "mainCommittee": "ثانية",
+    "subCommittee": "5",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10291",
+    "studentName": "مطر سعود محمد المطيرات",
+    "civilId": "309081000496",
+    "mainCommittee": "ثانية",
+    "subCommittee": "5",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10292",
+    "studentName": "مطلق فلاح احمد احمد",
+    "civilId": "307101600116",
+    "mainCommittee": "ثانية",
+    "subCommittee": "5",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10293",
+    "studentName": "معاذ فلاح فارس الضفيرى",
+    "civilId": "310031500132",
+    "mainCommittee": "ثانية",
+    "subCommittee": "5",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10294",
+    "studentName": "مناع عبدالله مناع العجمي",
+    "civilId": "310042800798",
+    "mainCommittee": "ثانية",
+    "subCommittee": "5",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10295",
+    "studentName": "مناع فهد مناع العجمي",
+    "civilId": "309081600694",
+    "mainCommittee": "ثانية",
+    "subCommittee": "5",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10296",
+    "studentName": "منصور سعد منصور حمد العنزي",
+    "civilId": "310083100456",
+    "mainCommittee": "ثانية",
+    "subCommittee": "5",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10297",
+    "studentName": "منيف مقحم منيف عقاب عبد الرحمن",
+    "civilId": "310041801465",
+    "mainCommittee": "ثانية",
+    "subCommittee": "5",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10298",
+    "studentName": "مهدى صادق فاضل محمد",
+    "civilId": "311031000044",
+    "mainCommittee": "ثانية",
+    "subCommittee": "5",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10299",
+    "studentName": "مهدي علي حسين البلوشي",
+    "civilId": "309020500243",
+    "mainCommittee": "ثانية",
+    "subCommittee": "5",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10300",
+    "studentName": "موسي حمد خويلد المطيري",
+    "civilId": "310080600615",
+    "mainCommittee": "ثانية",
+    "subCommittee": "6",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10301",
+    "studentName": "ناصر سعيد محمد سعيد",
+    "civilId": "310122202157",
+    "mainCommittee": "ثانية",
+    "subCommittee": "6",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10302",
+    "studentName": "ناصر جابر أحمد حسن الكندري",
+    "civilId": "311030601323",
+    "mainCommittee": "ثانية",
+    "subCommittee": "6",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10303",
+    "studentName": "ناصر عبدالرحمن عبدالله المخيال",
+    "civilId": "310032900832",
+    "mainCommittee": "ثانية",
+    "subCommittee": "6",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10304",
+    "studentName": "ناصر عبدالله رجعان الرشيدي",
+    "civilId": "309031501399",
+    "mainCommittee": "ثانية",
+    "subCommittee": "6",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10305",
+    "studentName": "ناصر عبدالله ضايف الخالدي",
+    "civilId": "310120200174",
+    "mainCommittee": "ثانية",
+    "subCommittee": "6",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10306",
+    "studentName": "ناصر فلاح احمد احمد",
+    "civilId": "310042800368",
+    "mainCommittee": "ثانية",
+    "subCommittee": "6",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10307",
+    "studentName": "ناصر فلاح عبدالرحمن العجمي",
+    "civilId": "310091801105",
+    "mainCommittee": "ثانية",
+    "subCommittee": "6",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10308",
+    "studentName": "ناصر فهد عبدالله ناصر مشلش العجمي",
+    "civilId": "311010100353",
+    "mainCommittee": "ثانية",
+    "subCommittee": "6",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10309",
+    "studentName": "ناصر محمد مناور المطيري",
+    "civilId": "310070101791",
+    "mainCommittee": "ثانية",
+    "subCommittee": "6",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10310",
+    "studentName": "ناصر نواف نايف عويد فرج الديحانى",
+    "civilId": "311012600183",
+    "mainCommittee": "ثانية",
+    "subCommittee": "6",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10311",
+    "studentName": "نايف عبدالمنعم شليويح عيد محمد حبيب المطيري",
+    "civilId": "310042601019",
+    "mainCommittee": "ثانية",
+    "subCommittee": "6",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10312",
+    "studentName": "نايف فهاد محمد المطيرى",
+    "civilId": "310021601132",
+    "mainCommittee": "ثانية",
+    "subCommittee": "6",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10313",
+    "studentName": "نواف ماضى حمود عايد",
+    "civilId": "310090901833",
+    "mainCommittee": "ثانية",
+    "subCommittee": "6",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10314",
+    "studentName": "نواف معتق جبان الصليلي",
+    "civilId": "310051002173",
+    "mainCommittee": "ثانية",
+    "subCommittee": "6",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10315",
+    "studentName": "نور على محمد ايوب محمد قيوم",
+    "civilId": "310020101734",
+    "mainCommittee": "ثانية",
+    "subCommittee": "6",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10316",
+    "studentName": "هزاع طلال هزاع الظفيري",
+    "civilId": "308100300247",
+    "mainCommittee": "ثانية",
+    "subCommittee": "7",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10317",
+    "studentName": "وليد عبدالله موسى سالم الشمري",
+    "civilId": "311031200783",
+    "mainCommittee": "ثانية",
+    "subCommittee": "7",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10318",
+    "studentName": "يحيى صلاح غريد البذالي",
+    "civilId": "311011200698",
+    "mainCommittee": "ثانية",
+    "subCommittee": "7",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10319",
+    "studentName": "يحيي سعود هديرس العنزي",
+    "civilId": "311013000905",
+    "mainCommittee": "ثانية",
+    "subCommittee": "7",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10320",
+    "studentName": "يعقوب يوسف مطر الضفيري",
+    "civilId": "310051800474",
+    "mainCommittee": "ثانية",
+    "subCommittee": "7",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10321",
+    "studentName": "يوسف حمد سميان الظفيري",
+    "civilId": "310082600029",
+    "mainCommittee": "ثانية",
+    "subCommittee": "7",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10322",
+    "studentName": "يوسف خالد جروان سويلم المطرفي",
+    "civilId": "309092501632",
+    "mainCommittee": "ثانية",
+    "subCommittee": "7",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10323",
+    "studentName": "يوسف صالح دويس السعيدى",
+    "civilId": "309091300409",
+    "mainCommittee": "ثانية",
+    "subCommittee": "7",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10324",
+    "studentName": "يوسف عبدالرحمن حسين اليوسف",
+    "civilId": "311012300375",
+    "mainCommittee": "ثانية",
+    "subCommittee": "7",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10325",
+    "studentName": "يوسف عبدالله جابر عطيه جبر الشمري",
+    "civilId": "311013001465",
+    "mainCommittee": "ثانية",
+    "subCommittee": "7",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10326",
+    "studentName": "يوسف عبدالله محمد شريف الكندري",
+    "civilId": "310050800405",
+    "mainCommittee": "ثانية",
+    "subCommittee": "7",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10327",
+    "studentName": "يوسف فهد الحميدى الجميلي الحربي",
+    "civilId": "311010601051",
+    "mainCommittee": "ثانية",
+    "subCommittee": "7",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10328",
+    "studentName": "يوسف فهد سعد زعال الظفيري",
+    "civilId": "310102600094",
+    "mainCommittee": "ثانية",
+    "subCommittee": "7",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10329",
+    "studentName": "يوسف محمد نومان رجعان نوما السليماني",
+    "civilId": "310090400764",
+    "mainCommittee": "ثانية",
+    "subCommittee": "7",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10330",
+    "studentName": "يوسف نواف صنيتان الشمري",
+    "civilId": "310092900789",
+    "mainCommittee": "ثانية",
+    "subCommittee": "7",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10331",
+    "studentName": "يوسف هشام غريد البذالي",
+    "civilId": "310102800272",
+    "mainCommittee": "ثانية",
+    "subCommittee": "7",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10332",
+    "studentName": "حمود محمد حمود الجميلي",
+    "civilId": "308122000915",
+    "mainCommittee": "ثانية",
+    "subCommittee": "3",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10333",
+    "studentName": "عبدالعزيز احمد تركى الشريف",
+    "civilId": "309120401605",
+    "mainCommittee": "ثانية",
+    "subCommittee": "4",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10334",
+    "studentName": "عبيد عبدالله عبيد العنزي",
+    "civilId": "308123000909",
+    "mainCommittee": "ثانية",
+    "subCommittee": "5",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10335",
+    "studentName": "فهد سعد خالد العنزى",
+    "civilId": "308072901677",
+    "mainCommittee": "ثانية",
+    "subCommittee": "6",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "10336",
+    "studentName": "ناصر عامر ضحوى الظفيري",
+    "civilId": "311021801497",
+    "mainCommittee": "ثانية",
+    "subCommittee": "7",
+    "committeeLocation": "المسرح",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11001",
+    "studentName": "أحمد رشيد مبارك الرشيدي",
+    "civilId": "309041900123",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح علوي ايسر صف (9/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11002",
+    "studentName": "ابراهيم حسين عصرى عياد العنزى",
+    "civilId": "310012700067",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح علوي ايسر صف (9/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11003",
+    "studentName": "ابراهيم عبدالله صالح منصور العتيبى",
+    "civilId": "309041901652",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح علوي ايسر صف (9/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11004",
+    "studentName": "براك خلف سالم الشمري",
+    "civilId": "309053000851",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح علوي ايسر صف (9/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11005",
+    "studentName": "تركى سعود عوض الرشيدى",
+    "civilId": "304060601994",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح علوي ايسر صف (9/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11006",
+    "studentName": "تركي نايف غازي المطيري",
+    "civilId": "308120500182",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح علوي ايسر صف (9/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11007",
+    "studentName": "ثنيان أحمد ثنيان الماص",
+    "civilId": "310022000451",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح علوي ايسر صف (9/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11008",
+    "studentName": "حمد فهد فلاح حيلان",
+    "civilId": "310020500663",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح علوي ايسر صف (9/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11009",
+    "studentName": "حمود بندر حسين الحسينى",
+    "civilId": "309101101754",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح علوي ايسر صف (9/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11010",
+    "studentName": "حيدر صالح سامي الامير",
+    "civilId": "309061500098",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح علوي ايسر صف (9/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11011",
+    "studentName": "خالد حمود نزال الشمري",
+    "civilId": "309050500041",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح علوي ايسر صف (9/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11012",
+    "studentName": "خالد عبد الله خالد السليمانى",
+    "civilId": "310011200845",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح علوي ايسر صف (9/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11013",
+    "studentName": "خالد فهيد جابر الظفيري",
+    "civilId": "308051400187",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح علوي ايسر صف (9/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11014",
+    "studentName": "خالد محمد مذكر المطيري",
+    "civilId": "309123100218",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح علوي ايسر صف (9/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11015",
+    "studentName": "خالد وليد سليمان العنزي",
+    "civilId": "309110300165",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح علوي ايسر صف (9/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11016",
+    "studentName": "خالد يوسف شهاب جحيل",
+    "civilId": "308092402517",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح علوي ايسر صف (9/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11017",
+    "studentName": "راكان خلف سالم الشمري",
+    "civilId": "309053000878",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح علوي ايسر صف (9/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11018",
+    "studentName": "سعد رومي فهد الظفيري",
+    "civilId": "308090500287",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح علوي ايسر صف (9/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11019",
+    "studentName": "سعد منذر فرحان العنزي",
+    "civilId": "309050200081",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح علوي ايسر صف (9/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11020",
+    "studentName": "سعود سعد ندى الجريد العنزي",
+    "civilId": "309061200351",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح علوي ايسر صف (10/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11021",
+    "studentName": "سعود عبداللطيف جريد العنزي",
+    "civilId": "308111000215",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح علوي ايسر صف (10/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11022",
+    "studentName": "سعود مساعد خليفه الحربي",
+    "civilId": "309072400287",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح علوي ايسر صف (10/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11023",
+    "studentName": "سلمان عيسى سلمان السليماني",
+    "civilId": "308020100931",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح علوي ايسر صف (10/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11024",
+    "studentName": "سلمان محمد مطلق الضفيري",
+    "civilId": "309072800088",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح علوي ايسر صف (10/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11025",
+    "studentName": "صالح نمر صالح غاطي",
+    "civilId": "309110800338",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح علوي ايسر صف (10/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11026",
+    "studentName": "صغير مطلق صغير الهاجري",
+    "civilId": "308062500861",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح علوي ايسر صف (10/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11027",
+    "studentName": "ضاحي حمزه عيد شنيف",
+    "civilId": "309081502082",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح علوي ايسر صف (10/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11028",
+    "studentName": "عبدالله خالد مطلق المطيري",
+    "civilId": "309090900218",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح علوي ايسر صف (10/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11029",
+    "studentName": "عبدالله عيسى ضيف الله الرشيدي",
+    "civilId": "309021500931",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح علوي ايسر صف (10/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11030",
+    "studentName": "عبدالله محمد عبدالله المطيري",
+    "civilId": "309021100102",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح علوي ايسر صف (10/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11031",
+    "studentName": "عبدالله محمد نواش الديحانى",
+    "civilId": "309082300343",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح علوي ايسر صف (10/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11032",
+    "studentName": "عبدالله مشاري غزاي الرشيدي",
+    "civilId": "309061700831",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح علوي ايسر صف (10/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11033",
+    "studentName": "عبدالله مشاري مطلق العنزي",
+    "civilId": "309110500722",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح علوي ايسر صف (10/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11034",
+    "studentName": "عبدالله مشعل فهد يوعد الحربي",
+    "civilId": "308112400739",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح علوي ايسر صف (10/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11035",
+    "studentName": "عثمان عبدالله ونس العنزي",
+    "civilId": "309082301688",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح علوي ايسر صف (10/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11036",
+    "studentName": "عشوي فرحان عشوى فرحان",
+    "civilId": "310013000046",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح علوي ايسر صف (10/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11037",
+    "studentName": "عمر أحمد سرحان الشمري",
+    "civilId": "308102201795",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح علوي ايسر صف (10/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11038",
+    "studentName": "غزاي متعب سعود العتيبي",
+    "civilId": "309062900923",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح علوي ايسر صف (10/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11039",
+    "studentName": "غزاي مشاري غزاي الرشيدي",
+    "civilId": "308022101583",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح علوي ايسر صف (11/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11040",
+    "studentName": "فلاح حمد مجبل المطيرى",
+    "civilId": "310012001207",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح علوي ايسر صف (11/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11041",
+    "studentName": "فلاح خلف فلاح خلف السعدى",
+    "civilId": "309062100352",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح علوي ايسر صف (11/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11042",
+    "studentName": "فهد خالد سليمان الحربي",
+    "civilId": "308122100289",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح علوي ايسر صف (11/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11043",
+    "studentName": "فهد عبدالله قبيل الشمرى",
+    "civilId": "309070901707",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح علوي ايسر صف (11/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11044",
+    "studentName": "فهد يوسف عايض فرج",
+    "civilId": "308052700317",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح علوي ايسر صف (11/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11045",
+    "studentName": "فواز أحمد غلاب الميموني",
+    "civilId": "310022401466",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح علوي ايسر صف (11/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11046",
+    "studentName": "فيصل عبدالله فيصل الجيماز",
+    "civilId": "308111500199",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح علوي ايسر صف (11/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11047",
+    "studentName": "محمد جابر ثني العنزي",
+    "civilId": "308062700185",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح علوي ايسر صف (11/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11048",
+    "studentName": "محمد فايز مطرود الحربي",
+    "civilId": "307122400084",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح علوي ايسر صف (11/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11049",
+    "studentName": "محمد متعب شلاش الديحانى",
+    "civilId": "309070901184",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح علوي ايسر صف (11/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11050",
+    "studentName": "محمد مطلق محمد فنيسان",
+    "civilId": "309042700692",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح علوي ايسر صف (11/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11051",
+    "studentName": "مشاري أحمد صلف المطيري",
+    "civilId": "309041800085",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح علوي ايسر صف (11/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11052",
+    "studentName": "مصعب غازي ذياب الشمري",
+    "civilId": "309041401586",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح علوي ايسر صف (11/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11053",
+    "studentName": "نايف موسى سعد العتيبي",
+    "civilId": "308100601437",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح علوي ايسر صف (11/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11054",
+    "studentName": "يوسف أحمد فيصل الفرحان",
+    "civilId": "309061400038",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح علوي ايسر صف (11/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11055",
+    "studentName": "يوسف أحمد محمد الكندرى",
+    "civilId": "309082301004",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح علوي ايسر صف (11/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11056",
+    "studentName": "يوسف بدر ليل العجمي",
+    "civilId": "310013001524",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح علوي ايسر صف (11/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11057",
+    "studentName": "يوسف مشعل ملفى المطيري",
+    "civilId": "308070600424",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح علوي ايسر صف (11/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11058",
+    "studentName": "أحمد محمد سعود المطيري",
+    "civilId": "309052400431",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح علوي ايسر صف (11ع1)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11059",
+    "studentName": "أويس صلاح محمد الحي",
+    "civilId": "309072701143",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح علوي ايسر صف (11ع1)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11060",
+    "studentName": "احمد حميدي محمد فالح الرشيدي",
+    "civilId": "309080801152",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح علوي ايسر صف (11ع1)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11061",
+    "studentName": "احمد مبارك فلاح الحربي",
+    "civilId": "309061200327",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح علوي ايسر صف (11ع1)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11062",
+    "studentName": "احمد محمد مفضي مفضي الغضوري",
+    "civilId": "310030401028",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح علوي ايسر صف (11ع1)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11063",
+    "studentName": "احمد مشاري احمد الحسين",
+    "civilId": "309092600171",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح علوي ايسر صف (11ع1)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11064",
+    "studentName": "احمد نواف مخلف الديحاني",
+    "civilId": "309070600066",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح علوي ايسر صف (11ع1)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11065",
+    "studentName": "اسامة نومان سليمان السويط",
+    "civilId": "309100800019",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح علوي ايسر صف (11ع1)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11066",
+    "studentName": "بدر خالد أحمد الفيلكاوي",
+    "civilId": "309101500237",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح علوي ايسر صف (11ع1)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11067",
+    "studentName": "بدر محمد هديان المفرج",
+    "civilId": "309051401109",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح علوي ايسر صف (11ع1)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11068",
+    "studentName": "براك عبدالمحسن ارهيف الفضلي",
+    "civilId": "309052500643",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح علوي ايسر صف (11ع1)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11069",
+    "studentName": "براك فهد جاسم عبدالله الصالح",
+    "civilId": "309072800854",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح علوي ايسر صف (11ع1)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11070",
+    "studentName": "تركي أحمد جبار المطيري",
+    "civilId": "309041600235",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح علوي ايسر صف (11ع1)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11071",
+    "studentName": "تركي فايز مجحم عبدالله العجمي",
+    "civilId": "309041900545",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح علوي ايسر صف (11ع1)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11072",
+    "studentName": "تركي فلاح الحميدى الرشيدى",
+    "civilId": "309030501215",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح علوي ايسر صف (11ع1)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11073",
+    "studentName": "تركي نواف تركي المطيري",
+    "civilId": "309090700101",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح علوي ايسر صف (11ع1)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11074",
+    "studentName": "جابر أحمد سعود الرشيدي",
+    "civilId": "309033100281",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح علوي ايسر صف (11ع1)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11075",
+    "studentName": "جابر عبدالرحمن محمد ابو رزق",
+    "civilId": "309091800032",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح علوي ايسر صف (11ع1)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11076",
+    "studentName": "جاسم طلال جاسم البلوشي",
+    "civilId": "310020501404",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح علوي ايسر صف (11ع1)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11226",
+    "studentName": "حمود فهد جابر الظفيرى",
+    "civilId": "307121300399",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح علوي ايسر صف (11ع1)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11077",
+    "studentName": "جاسم محمد جاسم بوقمبر",
+    "civilId": "309111000201",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح علوي ايسر صف (11ع2)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11078",
+    "studentName": "جراح عارف محمد الجنفاوي",
+    "civilId": "310022200111",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح علوي ايسر صف (11ع2)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11079",
+    "studentName": "جراح محمد أحمد بودى",
+    "civilId": "309050400569",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح علوي ايسر صف (11ع2)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11080",
+    "studentName": "حسين عبدالرحمن حسين اليوسف",
+    "civilId": "309052601292",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح علوي ايسر صف (11ع2)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11081",
+    "studentName": "حسين عبدالله حسين اليوسف",
+    "civilId": "309122100689",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح علوي ايسر صف (11ع2)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11082",
+    "studentName": "حسين عيسى جمال البلوشي",
+    "civilId": "309070801183",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح علوي ايسر صف (11ع2)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11083",
+    "studentName": "حسين محمد عبدالعزيز القلاف",
+    "civilId": "309121401471",
+    "mainCommittee": "لجنة خاصة",
+    "subCommittee": "1",
+    "committeeLocation": "الدور الأرضي يسار فصل 10-1",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11084",
+    "studentName": "حماد سعود ندى عايد العنزي",
+    "civilId": "309080700247",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح علوي ايسر صف (11ع2)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11085",
+    "studentName": "حمد احمد عيد الرشيدى",
+    "civilId": "309061601403",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح علوي ايسر صف (11ع2)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11086",
+    "studentName": "حمد حامد مطير البذالي",
+    "civilId": "308120300906",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح علوي ايسر صف (11ع2)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11087",
+    "studentName": "حمدان علي عويد البذالي",
+    "civilId": "310030400324",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح علوي ايسر صف (11ع2)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11088",
+    "studentName": "حمزه بدر توفيق العنزى",
+    "civilId": "308081002075",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح علوي ايسر صف (11ع2)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11089",
+    "studentName": "حيدر علي حاجي أشكناني",
+    "civilId": "309042000645",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح علوي ايسر صف (11ع2)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11090",
+    "studentName": "خالد احمد خالد العلى",
+    "civilId": "309122300146",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح علوي ايسر صف (11ع2)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11091",
+    "studentName": "خالد الحميدي بدر المطيري",
+    "civilId": "309062700497",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح علوي ايسر صف (11ع2)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11092",
+    "studentName": "خالد بطي فهد العجمي",
+    "civilId": "309110200244",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح علوي ايسر صف (11ع2)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11093",
+    "studentName": "خالد عبيد رجعان الرشيدي",
+    "civilId": "309041901089",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح علوي ايسر صف (11ع2)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11094",
+    "studentName": "خالد فالح فهد العجمي",
+    "civilId": "309090101942",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح علوي ايسر صف (11ع2)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11095",
+    "studentName": "خليفه محمد خليفه البيشي",
+    "civilId": "309072800686",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح علوي ايسر صف (11ع2)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11227",
+    "studentName": "عبدالعزيز مضحي مصبح دحيم الماجدي",
+    "civilId": "308120901728",
+    "mainCommittee": "ثالثة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح علوي ايسر صف (11ع2)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11096",
+    "studentName": "دعال زبن دعال السبيعى",
+    "civilId": "309092500402",
+    "mainCommittee": "رابعة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح أرضي ايسر صف (2/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11097",
+    "studentName": "زياد احمد انور محمد شافعي",
+    "civilId": "310010401493",
+    "mainCommittee": "رابعة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح أرضي ايسر صف (2/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11098",
+    "studentName": "سالم عبدالعزيز محمد العجمي",
+    "civilId": "309062800068",
+    "mainCommittee": "رابعة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح أرضي ايسر صف (2/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11099",
+    "studentName": "سالم مزيد سالم خلف العنزي",
+    "civilId": "310012000239",
+    "mainCommittee": "رابعة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح أرضي ايسر صف (2/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11100",
+    "studentName": "سعد اسماعيل سعد الكندري",
+    "civilId": "309101000486",
+    "mainCommittee": "رابعة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح أرضي ايسر صف (2/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11101",
+    "studentName": "سعد حسن سعود الرشيدي",
+    "civilId": "310010701664",
+    "mainCommittee": "رابعة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح أرضي ايسر صف (2/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11102",
+    "studentName": "سعد ضيدان محمد المطيري",
+    "civilId": "309031801527",
+    "mainCommittee": "رابعة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح أرضي ايسر صف (2/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11103",
+    "studentName": "سعد عبدالله ضاري الهرشاني",
+    "civilId": "309122900045",
+    "mainCommittee": "رابعة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح أرضي ايسر صف (2/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11104",
+    "studentName": "سعود صالح ناصر الخميس",
+    "civilId": "310011900462",
+    "mainCommittee": "رابعة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح أرضي ايسر صف (2/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11105",
+    "studentName": "سعود عبدالعزيز حزيم المطيري",
+    "civilId": "309051200577",
+    "mainCommittee": "رابعة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح أرضي ايسر صف (2/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11106",
+    "studentName": "سعود عبدالعزيز سعود الظفيرى",
+    "civilId": "309120600268",
+    "mainCommittee": "رابعة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح أرضي ايسر صف (2/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11107",
+    "studentName": "سعود عبدالهادي غريب المطيري",
+    "civilId": "309041600892",
+    "mainCommittee": "رابعة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح أرضي ايسر صف (2/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11108",
+    "studentName": "سعود عبيد سليمان مرزوق مدعج المطيري",
+    "civilId": "309052400191",
+    "mainCommittee": "رابعة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح أرضي ايسر صف (2/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11109",
+    "studentName": "سعود فايز معلا العتيبي",
+    "civilId": "309080600465",
+    "mainCommittee": "رابعة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح أرضي ايسر صف (2/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11110",
+    "studentName": "سعود مشعل سعود الشمري",
+    "civilId": "310012701035",
+    "mainCommittee": "رابعة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح أرضي ايسر صف (2/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11111",
+    "studentName": "سلطان أحمد سلطان الحسيني",
+    "civilId": "308050901641",
+    "mainCommittee": "رابعة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح أرضي ايسر صف (2/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11112",
+    "studentName": "سلطان سامى فياض العنزى",
+    "civilId": "310021400445",
+    "mainCommittee": "رابعة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح أرضي ايسر صف (2/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11113",
+    "studentName": "سلطان عبدالله بادي الشمري",
+    "civilId": "309073000867",
+    "mainCommittee": "رابعة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح أرضي ايسر صف (2/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11114",
+    "studentName": "سلطان فيصل البرك",
+    "civilId": "309040101004",
+    "mainCommittee": "رابعة",
+    "subCommittee": "1",
+    "committeeLocation": "جناح أرضي ايسر صف (2/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11115",
+    "studentName": "سلطان فيصل نحو الظفيري",
+    "civilId": "309032202083",
+    "mainCommittee": "رابعة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح أرضي ايسر صف (3/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11116",
+    "studentName": "سلطان محمد نايف العنزي",
+    "civilId": "309042200073",
+    "mainCommittee": "رابعة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح أرضي ايسر صف (3/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11117",
+    "studentName": "صعب غازى صعب الظفيرى",
+    "civilId": "309091800112",
+    "mainCommittee": "رابعة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح أرضي ايسر صف (3/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11118",
+    "studentName": "ضاحي على ضاحي ساير",
+    "civilId": "309123100752",
+    "mainCommittee": "رابعة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح أرضي ايسر صف (3/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11119",
+    "studentName": "ضاري عياد عيسى المطيري",
+    "civilId": "309031300511",
+    "mainCommittee": "رابعة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح أرضي ايسر صف (3/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11120",
+    "studentName": "طلال محمد زاهد العجمي",
+    "civilId": "309080101244",
+    "mainCommittee": "رابعة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح أرضي ايسر صف (3/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11121",
+    "studentName": "طلال محمد عايش العنزي",
+    "civilId": "309062902072",
+    "mainCommittee": "رابعة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح أرضي ايسر صف (3/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11122",
+    "studentName": "طلال محمد متعب المطيري",
+    "civilId": "309092800448",
+    "mainCommittee": "رابعة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح أرضي ايسر صف (3/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11123",
+    "studentName": "عادل عبدالرحمن عادل حيدر",
+    "civilId": "309123100322",
+    "mainCommittee": "رابعة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح أرضي ايسر صف (3/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11124",
+    "studentName": "عادل فارس خالد الرشيدي",
+    "civilId": "309062301699",
+    "mainCommittee": "رابعة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح أرضي ايسر صف (3/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11125",
+    "studentName": "عباس أحمد غلوم طهماسبي",
+    "civilId": "309050500332",
+    "mainCommittee": "رابعة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح أرضي ايسر صف (3/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11126",
+    "studentName": "عبد الوهاب جابر أحمد حسن الكندري",
+    "civilId": "309071500892",
+    "mainCommittee": "رابعة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح أرضي ايسر صف (3/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11127",
+    "studentName": "عبدالرحمن ساير عفيف الشمري",
+    "civilId": "309031500126",
+    "mainCommittee": "رابعة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح أرضي ايسر صف (3/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11128",
+    "studentName": "عبدالرحمن سعود عماش العنزي",
+    "civilId": "310012000116",
+    "mainCommittee": "رابعة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح أرضي ايسر صف (3/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11129",
+    "studentName": "عبدالرحمن ضاهر عبدالامير طه التميمي",
+    "civilId": "308102201066",
+    "mainCommittee": "رابعة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح أرضي ايسر صف (3/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11130",
+    "studentName": "عبدالرحمن ماجد عويض الشلاحي",
+    "civilId": "309052600433",
+    "mainCommittee": "رابعة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح أرضي ايسر صف (3/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11131",
+    "studentName": "عبدالعزيز عبدالله خليفه الجناع",
+    "civilId": "309102000808",
+    "mainCommittee": "رابعة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح أرضي ايسر صف (3/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11132",
+    "studentName": "عبدالعزيز نايف سعود الحسينى",
+    "civilId": "310030600449",
+    "mainCommittee": "رابعة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح أرضي ايسر صف (3/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11133",
+    "studentName": "عبداللطيف سعود ابنيه الصليلى العنزي",
+    "civilId": "310010500053",
+    "mainCommittee": "رابعة",
+    "subCommittee": "2",
+    "committeeLocation": "جناح أرضي ايسر صف (3/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11134",
+    "studentName": "عبدالله أحمد حسن عبدالله",
+    "civilId": "308102301761",
+    "mainCommittee": "رابعة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح أرضي ايسر صف (4/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11135",
+    "studentName": "عبدالله أنور منيف العنزى",
+    "civilId": "309031801906",
+    "mainCommittee": "رابعة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح أرضي ايسر صف (4/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11136",
+    "studentName": "عبدالله احمد سعد الصليلي",
+    "civilId": "309091400223",
+    "mainCommittee": "رابعة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح أرضي ايسر صف (4/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11137",
+    "studentName": "عبدالله حمد عبدالله المطيري",
+    "civilId": "309052600783",
+    "mainCommittee": "رابعة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح أرضي ايسر صف (4/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11138",
+    "studentName": "عبدالله خالد احمد خميس",
+    "civilId": "309030400406",
+    "mainCommittee": "رابعة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح أرضي ايسر صف (4/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11139",
+    "studentName": "عبدالله صالح مطلق المطيري",
+    "civilId": "309100700165",
+    "mainCommittee": "رابعة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح أرضي ايسر صف (4/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11140",
+    "studentName": "عبدالله طلال فالح العلاطي",
+    "civilId": "309042300509",
+    "mainCommittee": "رابعة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح أرضي ايسر صف (4/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11141",
+    "studentName": "عبدالله عبدالرحمن عوض الأصيمع",
+    "civilId": "310011501605",
+    "mainCommittee": "رابعة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح أرضي ايسر صف (4/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11142",
+    "studentName": "عبدالله غنيم مطر الماجدي",
+    "civilId": "308110201787",
+    "mainCommittee": "رابعة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح أرضي ايسر صف (4/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11143",
+    "studentName": "عبدالله مبارك سماح الحربي",
+    "civilId": "310030700087",
+    "mainCommittee": "رابعة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح أرضي ايسر صف (4/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11144",
+    "studentName": "عبدالله محمد عبدالله الكندري",
+    "civilId": "310020200804",
+    "mainCommittee": "رابعة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح أرضي ايسر صف (4/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11145",
+    "studentName": "عبدالله محمد ناصر العتيبي",
+    "civilId": "309040900869",
+    "mainCommittee": "رابعة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح أرضي ايسر صف (4/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11146",
+    "studentName": "عبدالله يوسف مفلح العتيبى",
+    "civilId": "309123100701",
+    "mainCommittee": "رابعة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح أرضي ايسر صف (4/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11147",
+    "studentName": "عبدالهادى محمد دهيمان العلاطى",
+    "civilId": "310030100102",
+    "mainCommittee": "رابعة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح أرضي ايسر صف (4/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11148",
+    "studentName": "عثمان عبدالرحمن عيد الشلاحى",
+    "civilId": "309120401082",
+    "mainCommittee": "رابعة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح أرضي ايسر صف (4/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11149",
+    "studentName": "عذبي محمد عيد الشمري",
+    "civilId": "309050401406",
+    "mainCommittee": "رابعة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح أرضي ايسر صف (4/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11150",
+    "studentName": "عذبي نايف فهيد المطيري",
+    "civilId": "309062901379",
+    "mainCommittee": "رابعة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح أرضي ايسر صف (4/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11151",
+    "studentName": "عقاب محمد سعد العنزي",
+    "civilId": "310012701617",
+    "mainCommittee": "رابعة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح أرضي ايسر صف (4/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11152",
+    "studentName": "علي حسن أحمد القطان",
+    "civilId": "309040800593",
+    "mainCommittee": "رابعة",
+    "subCommittee": "3",
+    "committeeLocation": "جناح أرضي ايسر صف (4/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11153",
+    "studentName": "علي حسين على الحربي",
+    "civilId": "309062802215",
+    "mainCommittee": "رابعة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح أرضي ايسر صف (5/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11154",
+    "studentName": "علي عبدالرحمن ابنيه العنزي",
+    "civilId": "309032500152",
+    "mainCommittee": "رابعة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح أرضي ايسر صف (5/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11155",
+    "studentName": "علي عبدالرضا علي جاولي",
+    "civilId": "310030500237",
+    "mainCommittee": "رابعة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح أرضي ايسر صف (5/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11156",
+    "studentName": "علي عيسى عباس حيدر",
+    "civilId": "309081000867",
+    "mainCommittee": "رابعة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح أرضي ايسر صف (5/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11157",
+    "studentName": "علي محمد راكان بوفارس العجمي",
+    "civilId": "310030900812",
+    "mainCommittee": "رابعة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح أرضي ايسر صف (5/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11158",
+    "studentName": "علي يوسف صعب رمضان عشيان العنزي",
+    "civilId": "310031401599",
+    "mainCommittee": "رابعة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح أرضي ايسر صف (5/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11159",
+    "studentName": "عمر احمد باسم الوهيب",
+    "civilId": "309121100337",
+    "mainCommittee": "رابعة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح أرضي ايسر صف (5/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11160",
+    "studentName": "عمر خلف معيوف الشمري",
+    "civilId": "309032301428",
+    "mainCommittee": "رابعة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح أرضي ايسر صف (5/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11161",
+    "studentName": "عمر سعد حامد الفضلي",
+    "civilId": "309061801499",
+    "mainCommittee": "رابعة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح أرضي ايسر صف (5/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11162",
+    "studentName": "عمر طارق شعيب الطريقي",
+    "civilId": "309041400348",
+    "mainCommittee": "رابعة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح أرضي ايسر صف (5/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11163",
+    "studentName": "عمر محمد هادي العتيبي",
+    "civilId": "309062401972",
+    "mainCommittee": "رابعة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح أرضي ايسر صف (5/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11164",
+    "studentName": "غالب طلال ضاري غالب المطيري",
+    "civilId": "309123100197",
+    "mainCommittee": "رابعة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح أرضي ايسر صف (5/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11165",
+    "studentName": "فارس محمد عادل علي ابراهيم",
+    "civilId": "308101000051",
+    "mainCommittee": "رابعة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح أرضي ايسر صف (5/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11166",
+    "studentName": "فارس ناصر محمد العجمي",
+    "civilId": "309060500483",
+    "mainCommittee": "رابعة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح أرضي ايسر صف (5/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11167",
+    "studentName": "فلاح عبدالرحمن عبدالله المطيري",
+    "civilId": "310012801685",
+    "mainCommittee": "رابعة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح أرضي ايسر صف (5/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11168",
+    "studentName": "فهد احمد عيد الرشيدى",
+    "civilId": "309061601411",
+    "mainCommittee": "رابعة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح أرضي ايسر صف (5/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11169",
+    "studentName": "فهد سالم سطم الشمري",
+    "civilId": "309021801486",
+    "mainCommittee": "رابعة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح أرضي ايسر صف (5/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11170",
+    "studentName": "فهد طه هادي العنزي",
+    "civilId": "309072301422",
+    "mainCommittee": "رابعة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح أرضي ايسر صف (5/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11171",
+    "studentName": "فهد عبدالله موسى الشمري",
+    "civilId": "309112900025",
+    "mainCommittee": "رابعة",
+    "subCommittee": "4",
+    "committeeLocation": "جناح أرضي ايسر صف (5/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11172",
+    "studentName": "فهد مساعد مسير الظفيري",
+    "civilId": "310011400089",
+    "mainCommittee": "رابعة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح أرضي ايسر صف (6/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11173",
+    "studentName": "فهد نايف صاهود المطيري",
+    "civilId": "308101300441",
+    "mainCommittee": "رابعة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح أرضي ايسر صف (6/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11174",
+    "studentName": "فهد هيف راشد المطيري",
+    "civilId": "308092400896",
+    "mainCommittee": "رابعة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح أرضي ايسر صف (6/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11175",
+    "studentName": "فيصل عبدالعزيز على الابراهيم",
+    "civilId": "309113000766",
+    "mainCommittee": "رابعة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح أرضي ايسر صف (6/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11176",
+    "studentName": "فيصل علي مجلاد الظفيري",
+    "civilId": "309092400014",
+    "mainCommittee": "رابعة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح أرضي ايسر صف (6/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11177",
+    "studentName": "فيصل فهد عبدالكريم السعيد",
+    "civilId": "310030900484",
+    "mainCommittee": "رابعة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح أرضي ايسر صف (6/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11178",
+    "studentName": "ليث محمد الرحيل",
+    "civilId": "309051202222",
+    "mainCommittee": "رابعة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح أرضي ايسر صف (6/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11179",
+    "studentName": "مانع حمود مانع الشمري",
+    "civilId": "309042801135",
+    "mainCommittee": "رابعة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح أرضي ايسر صف (6/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11180",
+    "studentName": "مبارك عيسى نقاء الشلاحي",
+    "civilId": "310022700212",
+    "mainCommittee": "رابعة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح أرضي ايسر صف (6/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11181",
+    "studentName": "مبارك محمد هزاع العنزي",
+    "civilId": "309062500591",
+    "mainCommittee": "رابعة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح أرضي ايسر صف (6/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11182",
+    "studentName": "مجحم طلال مجحم عبدالله العجمي",
+    "civilId": "309032601535",
+    "mainCommittee": "رابعة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح أرضي ايسر صف (6/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11183",
+    "studentName": "محسن علي محمد بوحمد",
+    "civilId": "309052601604",
+    "mainCommittee": "رابعة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح أرضي ايسر صف (6/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11184",
+    "studentName": "محمد سعد هديرس العنزي",
+    "civilId": "309060700127",
+    "mainCommittee": "رابعة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح أرضي ايسر صف (6/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11185",
+    "studentName": "محمد عبد الله سعد العجمى",
+    "civilId": "309070501957",
+    "mainCommittee": "رابعة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح أرضي ايسر صف (6/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11186",
+    "studentName": "محمد عبدالرحمن عباس العنزى",
+    "civilId": "309101100938",
+    "mainCommittee": "رابعة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح أرضي ايسر صف (6/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11187",
+    "studentName": "محمد عبدالعزيز محمد كنكوني",
+    "civilId": "310022800256",
+    "mainCommittee": "رابعة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح أرضي ايسر صف (6/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11188",
+    "studentName": "محمد عبدالله رجعان الرشيدي",
+    "civilId": "308031500893",
+    "mainCommittee": "رابعة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح أرضي ايسر صف (6/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11189",
+    "studentName": "محمد عبدالله محمد الكندري",
+    "civilId": "310022300833",
+    "mainCommittee": "رابعة",
+    "subCommittee": "5",
+    "committeeLocation": "جناح أرضي ايسر صف (6/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11190",
+    "studentName": "محمد فيصل مطلق الشهري",
+    "civilId": "309012500462",
+    "mainCommittee": "رابعة",
+    "subCommittee": "6",
+    "committeeLocation": "جناح أرضي ايسر صف (7/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11191",
+    "studentName": "محمد نواف فرج الحيان",
+    "civilId": "309090500468",
+    "mainCommittee": "رابعة",
+    "subCommittee": "6",
+    "committeeLocation": "جناح أرضي ايسر صف (7/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11192",
+    "studentName": "محمد نواف منور الشمرى",
+    "civilId": "309080800256",
+    "mainCommittee": "رابعة",
+    "subCommittee": "6",
+    "committeeLocation": "جناح أرضي ايسر صف (7/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11193",
+    "studentName": "محمد يوسف محمد العنزي",
+    "civilId": "309061300408",
+    "mainCommittee": "رابعة",
+    "subCommittee": "6",
+    "committeeLocation": "جناح أرضي ايسر صف (7/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11194",
+    "studentName": "مرزوق فهد مرزوق المطيرى",
+    "civilId": "309122201498",
+    "mainCommittee": "رابعة",
+    "subCommittee": "6",
+    "committeeLocation": "جناح أرضي ايسر صف (7/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11195",
+    "studentName": "مسفر صالح مسفر العجمى",
+    "civilId": "309051000719",
+    "mainCommittee": "رابعة",
+    "subCommittee": "6",
+    "committeeLocation": "جناح أرضي ايسر صف (7/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11196",
+    "studentName": "مشاري سلامه مخلف العنزي",
+    "civilId": "309101800096",
+    "mainCommittee": "رابعة",
+    "subCommittee": "6",
+    "committeeLocation": "جناح أرضي ايسر صف (7/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11197",
+    "studentName": "مشاري فهد صقر الشمري",
+    "civilId": "310031000031",
+    "mainCommittee": "رابعة",
+    "subCommittee": "6",
+    "committeeLocation": "جناح أرضي ايسر صف (7/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11198",
+    "studentName": "مشعل حمد فجري العجمي",
+    "civilId": "309050500535",
+    "mainCommittee": "رابعة",
+    "subCommittee": "6",
+    "committeeLocation": "جناح أرضي ايسر صف (7/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11199",
+    "studentName": "مشعل يوسف هادى الديحانى",
+    "civilId": "309112700066",
+    "mainCommittee": "رابعة",
+    "subCommittee": "6",
+    "committeeLocation": "جناح أرضي ايسر صف (7/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11200",
+    "studentName": "مصعب عبدالله ابنيه نزال ضبيان العنزي",
+    "civilId": "309040100124",
+    "mainCommittee": "رابعة",
+    "subCommittee": "6",
+    "committeeLocation": "جناح أرضي ايسر صف (7/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11201",
+    "studentName": "معاذ عبدالله مانع العجمي",
+    "civilId": "309070900237",
+    "mainCommittee": "رابعة",
+    "subCommittee": "6",
+    "committeeLocation": "جناح أرضي ايسر صف (7/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11202",
+    "studentName": "ملفي فالح ملفي المطيري",
+    "civilId": "309050900053",
+    "mainCommittee": "رابعة",
+    "subCommittee": "6",
+    "committeeLocation": "جناح أرضي ايسر صف (7/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11203",
+    "studentName": "منصور بندر ردام العلاطى",
+    "civilId": "309012700261",
+    "mainCommittee": "رابعة",
+    "subCommittee": "6",
+    "committeeLocation": "جناح أرضي ايسر صف (7/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11204",
+    "studentName": "ناصر بدر بعيجان المطيري",
+    "civilId": "309082601736",
+    "mainCommittee": "رابعة",
+    "subCommittee": "6",
+    "committeeLocation": "جناح أرضي ايسر صف (7/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11205",
+    "studentName": "ناصر سالم عبدالله الشمري",
+    "civilId": "309031801324",
+    "mainCommittee": "رابعة",
+    "subCommittee": "6",
+    "committeeLocation": "جناح أرضي ايسر صف (7/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11206",
+    "studentName": "ناصر سعد ناصر عبيد",
+    "civilId": "309091001804",
+    "mainCommittee": "رابعة",
+    "subCommittee": "6",
+    "committeeLocation": "جناح أرضي ايسر صف (7/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11207",
+    "studentName": "ناصر طلال قبلان الشمري",
+    "civilId": "309100400023",
+    "mainCommittee": "رابعة",
+    "subCommittee": "6",
+    "committeeLocation": "جناح أرضي ايسر صف (7/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11208",
+    "studentName": "ناصر عبدالرحمن خلف الطرقي",
+    "civilId": "309032300548",
+    "mainCommittee": "رابعة",
+    "subCommittee": "7",
+    "committeeLocation": "جناح أرضي ايسر صف (8/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11209",
+    "studentName": "ناصر مانع فهيد العجمى",
+    "civilId": "309073000429",
+    "mainCommittee": "رابعة",
+    "subCommittee": "7",
+    "committeeLocation": "جناح أرضي ايسر صف (8/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11210",
+    "studentName": "نايف عبدالرحمن فهد العجمى",
+    "civilId": "309111502033",
+    "mainCommittee": "رابعة",
+    "subCommittee": "7",
+    "committeeLocation": "جناح أرضي ايسر صف (8/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11211",
+    "studentName": "نايف على بطاح العجمى",
+    "civilId": "309120701229",
+    "mainCommittee": "رابعة",
+    "subCommittee": "7",
+    "committeeLocation": "جناح أرضي ايسر صف (8/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11212",
+    "studentName": "نايف مشعل بدر الضفيري",
+    "civilId": "309052300756",
+    "mainCommittee": "رابعة",
+    "subCommittee": "7",
+    "committeeLocation": "جناح أرضي ايسر صف (8/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11213",
+    "studentName": "يعقوب يوسف عادل بندر",
+    "civilId": "309061401137",
+    "mainCommittee": "رابعة",
+    "subCommittee": "7",
+    "committeeLocation": "جناح أرضي ايسر صف (8/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11214",
+    "studentName": "يوسف احمد سعود العنزى",
+    "civilId": "309110600141",
+    "mainCommittee": "رابعة",
+    "subCommittee": "7",
+    "committeeLocation": "جناح أرضي ايسر صف (8/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11215",
+    "studentName": "يوسف احمد مانع المطيري",
+    "civilId": "309081101027",
+    "mainCommittee": "رابعة",
+    "subCommittee": "7",
+    "committeeLocation": "جناح أرضي ايسر صف (8/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11216",
+    "studentName": "يوسف اسماعيل خليل دشتي",
+    "civilId": "309042100451",
+    "mainCommittee": "رابعة",
+    "subCommittee": "7",
+    "committeeLocation": "جناح أرضي ايسر صف (8/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11217",
+    "studentName": "يوسف بندر مضحي العنزي",
+    "civilId": "308111001699",
+    "mainCommittee": "رابعة",
+    "subCommittee": "7",
+    "committeeLocation": "جناح أرضي ايسر صف (8/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11218",
+    "studentName": "يوسف خالد عبدالله سيف المحينى",
+    "civilId": "309121701861",
+    "mainCommittee": "رابعة",
+    "subCommittee": "7",
+    "committeeLocation": "جناح أرضي ايسر صف (8/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11219",
+    "studentName": "يوسف خالد مالك حسن",
+    "civilId": "309061000157",
+    "mainCommittee": "لجنة خاصة",
+    "subCommittee": "1",
+    "committeeLocation": "الدور الأرضي يسار فصل 10-1",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11220",
+    "studentName": "يوسف سعود ثامر الشمري",
+    "civilId": "308121301222",
+    "mainCommittee": "رابعة",
+    "subCommittee": "7",
+    "committeeLocation": "جناح أرضي ايسر صف (8/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11221",
+    "studentName": "يوسف عبدالرحمن راشد العجمى",
+    "civilId": "309110300405",
+    "mainCommittee": "رابعة",
+    "subCommittee": "7",
+    "committeeLocation": "جناح أرضي ايسر صف (8/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11222",
+    "studentName": "يوسف مبارك غليفص الهاجري",
+    "civilId": "310021100063",
+    "mainCommittee": "رابعة",
+    "subCommittee": "7",
+    "committeeLocation": "جناح أرضي ايسر صف (8/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11223",
+    "studentName": "يوسف محمد احمد الشمرى",
+    "civilId": "309112101864",
+    "mainCommittee": "رابعة",
+    "subCommittee": "7",
+    "committeeLocation": "جناح أرضي ايسر صف (8/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11224",
+    "studentName": "يوسف ناصر عايض فرج",
+    "civilId": "309120101311",
+    "mainCommittee": "رابعة",
+    "subCommittee": "7",
+    "committeeLocation": "جناح أرضي ايسر صف (8/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  },
+  {
+    "seatNumber": "11225",
+    "studentName": "يوسف يعقوب عبد الهادى الحرز",
+    "civilId": "309123101106",
+    "mainCommittee": "رابعة",
+    "subCommittee": "7",
+    "committeeLocation": "جناح أرضي ايسر صف (8/10)",
+    "schoolCommittee": "عبدالعزيز سعود البابطين"
+  }
+]
