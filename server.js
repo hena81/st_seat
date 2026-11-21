@@ -7,6 +7,7 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
+app.set('trust proxy', 1);
 const PORT = process.env.PORT || 3000;
 const isProduction = process.env.NODE_ENV === 'production';
 const sessionSecret = process.env.SESSION_SECRET || 'St_Seat_Secret_2024xyz';
@@ -99,6 +100,10 @@ const excelUpload = multer({
 });
 
 // ============== PUBLIC API ==============
+
+// Health check
+app.get('/healthz', (req, res) => res.json({ status: 'ok', app: 'student-seat' }));
+app.get('/health', (req, res) => res.json({ status: 'ok', app: 'student-seat' }));
 
 // Get settings
 app.get('/api/settings', (req, res) => {
